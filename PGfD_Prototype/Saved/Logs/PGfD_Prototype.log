@@ -1538,3 +1538,42 @@ Script Stack (0 frames) :
 [2023.11.20-03.17.54:515][902]LogFileHelpers: InternalPromptForCheckoutAndSave took 110 ms (total: 575 ms)
 [2023.11.20-03.17.54:516][902]AssetCheck: New page: Asset Save: VR_Prototype
 [2023.11.20-03.17.54:517][902]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Prototype.VR_Prototype
+[2023.11.20-03.18.15:143][114]Cmd: DELETE
+[2023.11.20-03.18.15:143][114]Cmd: ACTOR DELETE
+[2023.11.20-03.18.15:144][114]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.11.20-03.18.15:148][114]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2023.11.20-03.18.15:150][114]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2023.11.20-03.18.15:708][145]Cmd: DELETE
+[2023.11.20-03.18.15:708][145]Cmd: ACTOR DELETE
+[2023.11.20-03.18.15:711][145]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.11.20-03.18.15:715][145]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2023.11.20-03.18.15:717][145]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2023.11.20-03.18.21:093][462]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DirectionalLight
+[2023.11.20-03.18.21:093][462]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DirectionalLight
+[2023.11.20-03.18.21:095][462]LogActorFactory: Actor Factory spawned Class /Script/Engine.DirectionalLight as actor: DirectionalLight /Game/VR_Prototype.VR_Prototype:PersistentLevel.DirectionalLight_1
+[2023.11.20-03.18.21:095][462]LogActorFactory: Actor Factory spawned Class /Script/Engine.DirectionalLight as actor: DirectionalLight /Game/VR_Prototype.VR_Prototype:PersistentLevel.DirectionalLight_1
+[2023.11.20-03.18.41:964][923]Cmd: DELETE
+[2023.11.20-03.18.41:964][923]Cmd: ACTOR DELETE
+[2023.11.20-03.18.41:965][923]LogEditorActor: Deleted Actor: DirectionalLight
+[2023.11.20-03.18.41:970][923]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.11.20-03.18.41:971][923]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2023.11.20-03.18.43:117][992]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.20-03.18.43:194][992]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2023.11.20-03.18.43:204][992]LogSavePackage: Moving output files for package: /Game/VR_Prototype
+[2023.11.20-03.18.43:205][992]LogSavePackage: Moving '../../../../../../Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Saved/VR_PrototypeA7D084A644B58D8EA722C7ADFD4A1329.tmp' to '../../../../../../Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Content/VR_Prototype.umap'
+[2023.11.20-03.18.43:211][992]LogFileHelpers: Saving map 'VR_Prototype' took 0.036
+[2023.11.20-03.18.43:224][992]LogFileHelpers: InternalPromptForCheckoutAndSave took 108 ms (total: 684 ms)
+[2023.11.20-03.18.43:226][992]AssetCheck: New page: Asset Save: VR_Prototype
+[2023.11.20-03.18.43:226][992]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Prototype.VR_Prototype
+[2023.11.20-03.18.53:662][489]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyAtmosphere
+[2023.11.20-03.18.53:662][489]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyAtmosphere
+[2023.11.20-03.18.53:664][489]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyAtmosphere as actor: SkyAtmosphere /Game/VR_Prototype.VR_Prototype:PersistentLevel.SkyAtmosphere_1
+[2023.11.20-03.18.53:664][489]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyAtmosphere as actor: SkyAtmosphere /Game/VR_Prototype.VR_Prototype:PersistentLevel.SkyAtmosphere_1
+[2023.11.20-03.19.01:789][707]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.20-03.19.01:866][707]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2023.11.20-03.19.01:877][707]LogSavePackage: Moving output files for package: /Game/VR_Prototype
+[2023.11.20-03.19.01:877][707]LogSavePackage: Moving '../../../../../../Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Saved/VR_Prototype628DFC81441578872770BD92FC961A2E.tmp' to '../../../../../../Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Content/VR_Prototype.umap'
+[2023.11.20-03.19.01:884][707]LogFileHelpers: Saving map 'VR_Prototype' took 0.039
+[2023.11.20-03.19.01:893][707]LogFileHelpers: InternalPromptForCheckoutAndSave took 104 ms (total: 789 ms)
+[2023.11.20-03.19.01:895][707]AssetCheck: New page: Asset Save: VR_Prototype
+[2023.11.20-03.19.01:895][707]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Prototype.VR_Prototype
