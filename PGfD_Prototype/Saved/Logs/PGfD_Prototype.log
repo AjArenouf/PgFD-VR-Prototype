@@ -1577,3 +1577,16 @@ Script Stack (0 frames) :
 [2023.11.20-03.19.01:893][707]LogFileHelpers: InternalPromptForCheckoutAndSave took 104 ms (total: 789 ms)
 [2023.11.20-03.19.01:895][707]AssetCheck: New page: Asset Save: VR_Prototype
 [2023.11.20-03.19.01:895][707]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Prototype.VR_Prototype
+[2023.11.20-03.19.37:163][ 36]Cmd: DELETE
+[2023.11.20-03.19.37:163][ 36]Cmd: ACTOR DELETE
+[2023.11.20-03.19.37:164][ 36]LogEditorActor: Deleted Actor: SkyAtmosphere
+[2023.11.20-03.19.37:168][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2023.11.20-03.19.37:171][ 36]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2023.11.20-03.19.38:316][105]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.20-03.19.38:394][105]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2023.11.20-03.19.38:405][105]LogSavePackage: Moving output files for package: /Game/VR_Prototype
+[2023.11.20-03.19.38:406][105]LogSavePackage: Moving '../../../../../../Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Saved/VR_Prototype636CD102484706AF565169961F6A5655.tmp' to '../../../../../../Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Content/VR_Prototype.umap'
+[2023.11.20-03.19.38:411][105]LogFileHelpers: Saving map 'VR_Prototype' took 0.036
+[2023.11.20-03.19.38:420][105]LogFileHelpers: InternalPromptForCheckoutAndSave took 103 ms (total: 892 ms)
+[2023.11.20-03.19.38:422][105]AssetCheck: New page: Asset Save: VR_Prototype
+[2023.11.20-03.19.38:422][105]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Prototype.VR_Prototype
