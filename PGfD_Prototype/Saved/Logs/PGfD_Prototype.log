@@ -1590,3 +1590,75 @@ Script Stack (0 frames) :
 [2023.11.20-03.19.38:420][105]LogFileHelpers: InternalPromptForCheckoutAndSave took 103 ms (total: 892 ms)
 [2023.11.20-03.19.38:422][105]AssetCheck: New page: Asset Save: VR_Prototype
 [2023.11.20-03.19.38:422][105]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Prototype.VR_Prototype
+[2023.11.20-03.20.01:463][386]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.11.20-03.20.01:468][386]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.20-03.20.01:468][386]PIE: New page: PIE session: VR_Prototype (19 Nov 2023, 17:20:01)
+[2023.11.20-03.20.01:468][386]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_VR_Prototype
+[2023.11.20-03.20.01:471][386]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003400s)
+[2023.11.20-03.20.01:471][386]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VR_Prototype.VR_Prototype to /Game/UEDPIE_0_VR_Prototype.VR_Prototype (0.003432s)
+[2023.11.20-03.20.01:476][386]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.11.20-03.20.01:478][386]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.20-03.20.01:478][386]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.20-03.20.01:479][386]LogAIModule: Creating AISystem for world VR_Prototype
+[2023.11.20-03.20.01:479][386]LogPlayLevel: PIE: World Init took: (0.001540s)
+[2023.11.20-03.20.01:479][386]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2023.11.20-03.20.01:479][386]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.20-03.20.01:479][386]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.20-03.20.01:479][386]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.20-03.20.01:479][386]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.20-03.20.01:479][386]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.20-03.20.01:479][386]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.20-03.20.01:479][386]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.20-03.20.01:479][386]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.20-03.20.01:480][386]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.20-03.20.01:480][386]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.20-03.20.01:480][386]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.20-03.20.01:482][386]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.20-03.20.01:611][386]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.11.20-03.20.01:611][386]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.20-03.20.01:611][386]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.20-03.20.01:611][386]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.20-03.20.01:613][386]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2023.11.20-03.20.01:613][386]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2023.11.20-03.20.01:614][386]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2023.11.20-03.20.01:614][386]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2023.11.20-03.20.01:614][386]LogInit: FAudioDevice initialized with ID 3.
+[2023.11.20-03.20.01:614][386]LogAudio: Display: Audio Device (ID: 3) registered with world 'VR_Prototype'.
+[2023.11.20-03.20.01:614][386]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2023.11.20-03.20.01:639][386]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.20-03.20.01:849][386]LogLoad: Game class is 'VRGameMode_C'
+[2023.11.20-03.20.01:851][386]LogWorld: Bringing World /Game/UEDPIE_0_VR_Prototype.VR_Prototype up for play (max tick rate 0) at 2023.11.19-22.20.01
+[2023.11.20-03.20.01:851][386]LogWorld: Bringing up level for play took: 0.002049
+[2023.11.20-03.20.01:854][386]LogOnline: OSS: Created online subsystem instance for: :Context_5
+[2023.11.20-03.20.01:860][386]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.11.20-03.20.01:860][386]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.11.20-03.20.01:861][386]vr.PixelDensity = "1"
+[2023.11.20-03.20.01:864][386]PIE: Server logged in
+[2023.11.20-03.20.01:865][386]PIE: Play in editor total start time 0.397 seconds.
+[2023.11.20-03.20.01:867][386]LogViewport: Scene viewport resized to 3648x1840, mode Windowed.
+[2023.11.20-03.20.01:871][386]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.11.20-03.20.08:270][775]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.11.20-03.20.11:642][896]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.11.20-03.20.12:874][961]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.11.20-03.20.29:824][734]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.20-03.20.29:824][734]LogWorld: BeginTearingDown for /Game/UEDPIE_0_VR_Prototype
+[2023.11.20-03.20.29:871][734]LogSlate: Window 'PGfD_Prototype Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6) OpenXR Oculus (1.91.0)' being destroyed
+[2023.11.20-03.20.29:875][734]LogWorld: UWorld::CleanupWorld for VR_Prototype, bSessionEnded=true, bCleanupResources=true
+[2023.11.20-03.20.29:875][734]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.20-03.20.29:881][734]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.20-03.20.29:884][734]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.20-03.20.29:889][734]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2023.11.20-03.20.29:889][734]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.11.20-03.20.29:893][734]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.11.20-03.20.29:903][734]LogSlate: Slate User Unregistered.  User Index 8
+[2023.11.20-03.20.29:903][734]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.11.20-03.20.29:904][734]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2023.11.20-03.20.30:006][735]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2023.11.20-03.20.31:567][828]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.20-03.20.31:646][828]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2023.11.20-03.20.31:657][828]LogSavePackage: Moving output files for package: /Game/VR_Prototype
+[2023.11.20-03.20.31:658][828]LogSavePackage: Moving '../../../../../../Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Saved/VR_Prototype4540270D41DFE33062D675BC3EEDFADB.tmp' to '../../../../../../Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Content/VR_Prototype.umap'
+[2023.11.20-03.20.31:663][828]LogFileHelpers: Saving map 'VR_Prototype' took 0.037
+[2023.11.20-03.20.31:671][828]LogFileHelpers: InternalPromptForCheckoutAndSave took 104 ms (total: 997 ms)
+[2023.11.20-03.20.31:673][828]AssetCheck: New page: Asset Save: VR_Prototype
+[2023.11.20-03.20.31:673][828]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Prototype.VR_Prototype
