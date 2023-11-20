@@ -1440,3 +1440,91 @@ Script Stack (0 frames) :
 [2023.11.20-03.14.07:314][392]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
 [2023.11.20-03.14.07:411][393]LogPlayLevel: Display: Destroying online subsystem :Context_2
 [2023.11.20-03.14.43:176][652]LogDerivedDataCache: C:/Users/Anton/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:10.694 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 5604 files in 7422 folders with total size 419 MiB.
+[2023.11.20-03.16.34:853][987]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.20-03.16.34:916][988]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.20-03.16.34:928][988]LogShaderCompilers: Display: ================================================
+[2023.11.20-03.16.34:928][988]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.11.20-03.16.34:928][988]LogShaderCompilers: Display: Total job queries 51, among them cache hits 8 (15.69%)
+[2023.11.20-03.16.34:928][988]LogShaderCompilers: Display: Tracking 38 distinct input hashes that result in 30 distinct outputs (78.95%)
+[2023.11.20-03.16.34:928][988]LogShaderCompilers: Display: RAM used: 1.39 MiB of 819.20 MiB budget. Usage: 0.17%
+[2023.11.20-03.16.34:928][988]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.11.20-03.16.34:928][988]LogShaderCompilers: Display: Shaders Compiled: 38
+[2023.11.20-03.16.34:928][988]LogShaderCompilers: Display: Jobs assigned 38, completed 38 (100%)
+[2023.11.20-03.16.34:928][988]LogShaderCompilers: Display: Average time worker was idle: 14.35 s
+[2023.11.20-03.16.34:928][988]LogShaderCompilers: Display: Time job spent in pending queue: average 1.05 s, longest 2.84 s
+[2023.11.20-03.16.34:928][988]LogShaderCompilers: Display: Job execution time: average 1.93 s, max 5.46 s
+[2023.11.20-03.16.34:928][988]LogShaderCompilers: Display: Job life time (pending + execution): average 2.98 s, max 5.70
+[2023.11.20-03.16.34:928][988]LogShaderCompilers: Display: Shader code size: average 64.806 KiB, min 4.504 KiB, max 87.328 KiB
+[2023.11.20-03.16.34:928][988]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 13.13 s
+[2023.11.20-03.16.34:928][988]LogShaderCompilers: Display: Jobs were issued in 38 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.11.20-03.16.34:928][988]LogShaderCompilers: Display: Average processing rate: 2.89 jobs/sec
+[2023.11.20-03.16.34:928][988]LogShaderCompilers: Display: Total thread time: 61.674 s
+[2023.11.20-03.16.34:928][988]LogShaderCompilers: Display: Total thread preprocess time: 2.234 s
+[2023.11.20-03.16.34:928][988]LogShaderCompilers: Display: Percentage time preprocessing: 3.62%
+[2023.11.20-03.16.34:928][988]LogShaderCompilers: Display: Effective parallelization: 4.70 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.11.20-03.16.34:928][988]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.11.20-03.16.34:928][988]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    4 times, average 3.98 sec, max 4.79 sec, min 3.21 sec)
+[2023.11.20-03.16.34:928][988]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    5 times, average 3.17 sec, max 3.68 sec, min 1.96 sec)
+[2023.11.20-03.16.34:928][988]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    7 times, average 1.56 sec, max 3.71 sec, min 0.62 sec)
+[2023.11.20-03.16.34:928][988]LogShaderCompilers: Display:                                                  FVelocityVS (compiled    1 times, average 1.36 sec, max 1.36 sec, min 1.36 sec)
+[2023.11.20-03.16.34:928][988]LogShaderCompilers: Display:                                          TDepthOnlyVS<false> (compiled    1 times, average 1.31 sec, max 1.31 sec, min 1.31 sec)
+[2023.11.20-03.16.34:928][988]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.11.20-03.16.34:928][988]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 25.80% of total time (compiled    4 times, average 3.98 sec, max 4.79 sec, min 3.21 sec)
+[2023.11.20-03.16.34:928][988]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 25.66% of total time (compiled    5 times, average 3.17 sec, max 3.68 sec, min 1.96 sec)
+[2023.11.20-03.16.34:928][988]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 17.65% of total time (compiled    7 times, average 1.56 sec, max 3.71 sec, min 0.62 sec)
+[2023.11.20-03.16.34:928][988]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 12.62% of total time (compiled   10 times, average 0.78 sec, max 0.96 sec, min 0.45 sec)
+[2023.11.20-03.16.34:928][988]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy - 7.03% of total time (compiled    4 times, average 1.08 sec, max 1.45 sec, min 0.73 sec)
+[2023.11.20-03.16.34:928][988]LogShaderCompilers: Display: ================================================
+[2023.11.20-03.16.37:319][123]Cmd: EDIT COPY
+[2023.11.20-03.16.37:591][139]Cmd: EDIT PASTE
+[2023.11.20-03.16.37:624][139]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/PCG.PCGSettings'
+[2023.11.20-03.16.39:600][242]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.20-03.16.39:690][242]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2023.11.20-03.16.39:699][242]LogPackageLocalizationCache: Processed 47 localized package path(s) for 1 prioritized culture(s) in 0.006897 seconds
+[2023.11.20-03.16.39:710][242]LogSavePackage: Moving output files for package: /Game/VR_Prototype
+[2023.11.20-03.16.39:711][242]LogSavePackage: Moving '../../../../../../Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Saved/VR_Prototype1B9E44E84D9987D3C99F0D8B70BE0A6A.tmp' to '../../../../../../Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Content/VR_Prototype.umap'
+[2023.11.20-03.16.39:720][242]LogFileHelpers: Saving map 'VR_Prototype' took 0.055
+[2023.11.20-03.16.39:738][242]LogFileHelpers: InternalPromptForCheckoutAndSave took 138 ms
+[2023.11.20-03.16.39:740][242]AssetCheck: New page: Asset Save: VR_Prototype
+[2023.11.20-03.16.39:740][242]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Prototype.VR_Prototype
+[2023.11.20-03.16.48:828][438]Cmd: EDIT COPY
+[2023.11.20-03.16.49:096][454]Cmd: EDIT PASTE
+[2023.11.20-03.16.51:844][603]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.20-03.16.51:919][603]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2023.11.20-03.16.51:930][603]LogSavePackage: Moving output files for package: /Game/VR_Prototype
+[2023.11.20-03.16.51:931][603]LogSavePackage: Moving '../../../../../../Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Saved/VR_Prototype8BCAD84A477B318FE2B8889026A5803F.tmp' to '../../../../../../Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Content/VR_Prototype.umap'
+[2023.11.20-03.16.51:936][603]LogFileHelpers: Saving map 'VR_Prototype' took 0.038
+[2023.11.20-03.16.51:952][603]LogFileHelpers: InternalPromptForCheckoutAndSave took 107 ms (total: 246 ms)
+[2023.11.20-03.16.51:953][603]AssetCheck: New page: Asset Save: VR_Prototype
+[2023.11.20-03.16.51:953][603]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Prototype.VR_Prototype
+[2023.11.20-03.17.09:182][847]Cmd: DELETE
+[2023.11.20-03.17.09:182][847]Cmd: ACTOR DELETE
+[2023.11.20-03.17.09:187][847]LogEditorActor: Deleted Actor: GrabActor_C
+[2023.11.20-03.17.09:193][847]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.11.20-03.17.09:193][847]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2023.11.20-03.17.10:554][927]Cmd: DELETE
+[2023.11.20-03.17.10:554][927]Cmd: ACTOR DELETE
+[2023.11.20-03.17.10:555][927]LogEditorActor: Deleted Actor: GrabActor_C
+[2023.11.20-03.17.10:561][927]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2023.11.20-03.17.10:563][927]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2023.11.20-03.17.12:374][ 36]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.20-03.17.12:449][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2023.11.20-03.17.12:460][ 36]LogSavePackage: Moving output files for package: /Game/VR_Prototype
+[2023.11.20-03.17.12:461][ 36]LogSavePackage: Moving '../../../../../../Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Saved/VR_PrototypeD984BD3A4831ADFFC88290A98A43E05F.tmp' to '../../../../../../Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Content/VR_Prototype.umap'
+[2023.11.20-03.17.12:467][ 36]LogFileHelpers: Saving map 'VR_Prototype' took 0.037
+[2023.11.20-03.17.12:481][ 36]LogFileHelpers: InternalPromptForCheckoutAndSave took 106 ms (total: 352 ms)
+[2023.11.20-03.17.12:483][ 36]AssetCheck: New page: Asset Save: VR_Prototype
+[2023.11.20-03.17.12:484][ 36]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Prototype.VR_Prototype
+[2023.11.20-03.17.18:135][220]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2023.11.20-03.17.20:909][352]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cylinder.Cylinder
+[2023.11.20-03.17.20:909][352]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cylinder.Cylinder
+[2023.11.20-03.17.20:911][352]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cylinder.Cylinder as actor: StaticMeshActor /Game/VR_Prototype.VR_Prototype:PersistentLevel.StaticMeshActor_2
+[2023.11.20-03.17.20:912][352]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cylinder.Cylinder as actor: StaticMeshActor /Game/VR_Prototype.VR_Prototype:PersistentLevel.StaticMeshActor_2
+[2023.11.20-03.17.22:818][461]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.20-03.17.22:898][461]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2023.11.20-03.17.22:909][461]LogSavePackage: Moving output files for package: /Game/VR_Prototype
+[2023.11.20-03.17.22:910][461]LogSavePackage: Moving '../../../../../../Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Saved/VR_Prototype3230FDC4490688C4EB27D6A5661B04C8.tmp' to '../../../../../../Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Content/VR_Prototype.umap'
+[2023.11.20-03.17.22:916][461]LogFileHelpers: Saving map 'VR_Prototype' took 0.043
+[2023.11.20-03.17.22:930][461]LogFileHelpers: InternalPromptForCheckoutAndSave took 112 ms (total: 465 ms)
+[2023.11.20-03.17.22:933][461]AssetCheck: New page: Asset Save: VR_Prototype
+[2023.11.20-03.17.22:933][461]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Prototype.VR_Prototype
