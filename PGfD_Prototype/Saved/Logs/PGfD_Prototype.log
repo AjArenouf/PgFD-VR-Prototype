@@ -1528,3 +1528,13 @@ Script Stack (0 frames) :
 [2023.11.20-03.17.22:930][461]LogFileHelpers: InternalPromptForCheckoutAndSave took 112 ms (total: 465 ms)
 [2023.11.20-03.17.22:933][461]AssetCheck: New page: Asset Save: VR_Prototype
 [2023.11.20-03.17.22:933][461]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Prototype.VR_Prototype
+[2023.11.20-03.17.51:003][713]Cmd: EDIT COPY
+[2023.11.20-03.17.51:203][725]Cmd: EDIT PASTE
+[2023.11.20-03.17.54:405][902]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.20-03.17.54:487][902]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2023.11.20-03.17.54:498][902]LogSavePackage: Moving output files for package: /Game/VR_Prototype
+[2023.11.20-03.17.54:499][902]LogSavePackage: Moving '../../../../../../Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Saved/VR_Prototype8F3D79304E58EF2B6087F58050F34427.tmp' to '../../../../../../Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Content/VR_Prototype.umap'
+[2023.11.20-03.17.54:504][902]LogFileHelpers: Saving map 'VR_Prototype' took 0.038
+[2023.11.20-03.17.54:515][902]LogFileHelpers: InternalPromptForCheckoutAndSave took 110 ms (total: 575 ms)
+[2023.11.20-03.17.54:516][902]AssetCheck: New page: Asset Save: VR_Prototype
+[2023.11.20-03.17.54:517][902]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Prototype.VR_Prototype
