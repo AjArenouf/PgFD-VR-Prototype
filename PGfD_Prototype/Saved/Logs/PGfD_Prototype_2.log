@@ -3996,3 +3996,676 @@ Script Stack (0 frames) :
 [2023.11.30-01.10.54:423][294]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
 [2023.11.30-01.10.54:563][295]LogPlayLevel: Display: Destroying online subsystem :Context_53
 [2023.11.30-01.10.57:737][612]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2023.11.30-01.11.47:928][965]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.30-01.11.48:021][965]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2023.11.30-01.11.48:036][965]LogSavePackage: Moving output files for package: /Game/VR_Prototype
+[2023.11.30-01.11.48:037][965]LogSavePackage: Moving '../../../../../../Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Saved/VR_PrototypeDDF079704A31186174F0598CD7AA09D5.tmp' to '../../../../../../Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Content/VR_Prototype.umap'
+[2023.11.30-01.11.48:043][965]LogFileHelpers: Saving map 'VR_Prototype' took 0.054
+[2023.11.30-01.11.48:059][965]LogFileHelpers: InternalPromptForCheckoutAndSave took 131 ms (total: 4.01 sec)
+[2023.11.30-01.11.48:062][965]AssetCheck: New page: Asset Save: VR_Prototype
+[2023.11.30-01.11.48:062][965]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Prototype.VR_Prototype
+[2023.11.30-01.11.49:646][129]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.11.30-01.11.49:653][129]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.30-01.11.49:653][129]PIE: New page: PIE session: VR_Prototype (29 Nov 2023, 15:11:49)
+[2023.11.30-01.11.49:654][129]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_VR_Prototype
+[2023.11.30-01.11.49:660][129]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006236s)
+[2023.11.30-01.11.49:660][129]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VR_Prototype.VR_Prototype to /Game/UEDPIE_0_VR_Prototype.VR_Prototype (0.006284s)
+[2023.11.30-01.11.49:679][129]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2023.11.30-01.11.49:680][129]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.30-01.11.49:680][129]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.30-01.11.49:681][129]LogAIModule: Creating AISystem for world VR_Prototype
+[2023.11.30-01.11.49:681][129]LogPlayLevel: PIE: World Init took: (0.000911s)
+[2023.11.30-01.11.49:681][129]LogAudio: Display: Creating Audio Device:                 Id: 34, Scope: Unique, Realtime: True
+[2023.11.30-01.11.49:681][129]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.30-01.11.49:681][129]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.30-01.11.49:681][129]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.30-01.11.49:681][129]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.30-01.11.49:681][129]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.30-01.11.49:681][129]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.30-01.11.49:681][129]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.30-01.11.49:681][129]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.30-01.11.49:682][129]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.30-01.11.49:682][129]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.30-01.11.49:682][129]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.30-01.11.49:684][129]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.30-01.11.49:825][129]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.11.30-01.11.49:825][129]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.30-01.11.49:825][129]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.30-01.11.49:825][129]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.30-01.11.49:825][129]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=34
+[2023.11.30-01.11.49:825][129]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=34
+[2023.11.30-01.11.49:828][129]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=34
+[2023.11.30-01.11.49:828][129]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=34
+[2023.11.30-01.11.49:828][129]LogInit: FAudioDevice initialized with ID 34.
+[2023.11.30-01.11.49:828][129]LogAudio: Display: Audio Device (ID: 34) registered with world 'VR_Prototype'.
+[2023.11.30-01.11.49:828][129]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 34
+[2023.11.30-01.11.49:854][129]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.30-01.11.50:073][129]LogLoad: Game class is 'VRGameMode_C'
+[2023.11.30-01.11.50:075][129]LogWorld: Bringing World /Game/UEDPIE_0_VR_Prototype.VR_Prototype up for play (max tick rate 0) at 2023.11.29-20.11.50
+[2023.11.30-01.11.50:076][129]LogWorld: Bringing up level for play took: 0.003209
+[2023.11.30-01.11.50:080][129]LogOnline: OSS: Created online subsystem instance for: :Context_54
+[2023.11.30-01.11.50:082][129]vr.PixelDensity = "1"
+[2023.11.30-01.11.50:086][129]PIE: Server logged in
+[2023.11.30-01.11.50:089][129]PIE: Play in editor total start time 0.436 seconds.
+[2023.11.30-01.11.50:097][129]LogViewport: Scene viewport resized to 3648x1840, mode Windowed.
+[2023.11.30-01.11.50:102][129]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.11.30-01.12.07:006][744]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.30-01.12.07:006][744]LogWorld: BeginTearingDown for /Game/UEDPIE_0_VR_Prototype
+[2023.11.30-01.12.07:049][744]LogSlate: Window 'PGfD_Prototype Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6) OpenXR Oculus (1.91.0)' being destroyed
+[2023.11.30-01.12.07:054][744]LogWorld: UWorld::CleanupWorld for VR_Prototype, bSessionEnded=true, bCleanupResources=true
+[2023.11.30-01.12.07:055][744]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.30-01.12.07:067][744]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.30-01.12.07:076][744]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.30-01.12.07:101][744]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 34
+[2023.11.30-01.12.07:101][744]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34
+[2023.11.30-01.12.07:105][744]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34
+[2023.11.30-01.12.07:118][744]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2023.11.30-01.12.07:256][745]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2023.11.30-01.12.13:801][433]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.11.30-01.12.13:810][433]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.30-01.12.13:810][433]PIE: New page: PIE session: VR_Prototype (29 Nov 2023, 15:12:13)
+[2023.11.30-01.12.13:835][433]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_VR_Prototype
+[2023.11.30-01.12.13:839][433]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003892s)
+[2023.11.30-01.12.13:839][433]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VR_Prototype.VR_Prototype to /Game/UEDPIE_0_VR_Prototype.VR_Prototype (0.003945s)
+[2023.11.30-01.12.13:856][433]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2023.11.30-01.12.13:858][433]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.30-01.12.13:858][433]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.30-01.12.13:859][433]LogAIModule: Creating AISystem for world VR_Prototype
+[2023.11.30-01.12.13:859][433]LogPlayLevel: PIE: World Init took: (0.001154s)
+[2023.11.30-01.12.13:859][433]LogAudio: Display: Creating Audio Device:                 Id: 35, Scope: Unique, Realtime: True
+[2023.11.30-01.12.13:859][433]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.30-01.12.13:859][433]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.30-01.12.13:859][433]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.30-01.12.13:859][433]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.30-01.12.13:859][433]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.30-01.12.13:859][433]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.30-01.12.13:859][433]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.30-01.12.13:859][433]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.30-01.12.13:860][433]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.30-01.12.13:860][433]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.30-01.12.13:860][433]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.30-01.12.13:862][433]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.30-01.12.14:001][433]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.11.30-01.12.14:002][433]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.30-01.12.14:002][433]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.30-01.12.14:002][433]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.30-01.12.14:002][433]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=35
+[2023.11.30-01.12.14:002][433]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=35
+[2023.11.30-01.12.14:006][433]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=35
+[2023.11.30-01.12.14:006][433]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=35
+[2023.11.30-01.12.14:006][433]LogInit: FAudioDevice initialized with ID 35.
+[2023.11.30-01.12.14:006][433]LogAudio: Display: Audio Device (ID: 35) registered with world 'VR_Prototype'.
+[2023.11.30-01.12.14:006][433]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 35
+[2023.11.30-01.12.14:036][433]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.30-01.12.14:259][433]LogLoad: Game class is 'VRGameMode_C'
+[2023.11.30-01.12.14:261][433]LogWorld: Bringing World /Game/UEDPIE_0_VR_Prototype.VR_Prototype up for play (max tick rate 0) at 2023.11.29-20.12.14
+[2023.11.30-01.12.14:261][433]LogWorld: Bringing up level for play took: 0.001778
+[2023.11.30-01.12.14:266][433]LogOnline: OSS: Created online subsystem instance for: :Context_55
+[2023.11.30-01.12.14:268][433]vr.PixelDensity = "1"
+[2023.11.30-01.12.14:272][433]PIE: Server logged in
+[2023.11.30-01.12.14:275][433]PIE: Play in editor total start time 0.464 seconds.
+[2023.11.30-01.12.14:284][433]LogViewport: Scene viewport resized to 3648x1840, mode Windowed.
+[2023.11.30-01.12.14:288][433]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.11.30-01.12.59:473][  2]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.30-01.12.59:473][  2]LogWorld: BeginTearingDown for /Game/UEDPIE_0_VR_Prototype
+[2023.11.30-01.12.59:525][  2]LogSlate: Window 'PGfD_Prototype Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6) OpenXR Oculus (1.91.0)' being destroyed
+[2023.11.30-01.12.59:532][  2]LogWorld: UWorld::CleanupWorld for VR_Prototype, bSessionEnded=true, bCleanupResources=true
+[2023.11.30-01.12.59:532][  2]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.30-01.12.59:542][  2]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.30-01.12.59:546][  2]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.30-01.12.59:568][  2]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 35
+[2023.11.30-01.12.59:568][  2]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35
+[2023.11.30-01.12.59:572][  2]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35
+[2023.11.30-01.12.59:585][  2]LogUObjectHash: Compacting FUObjectHashTables data took   4.24ms
+[2023.11.30-01.12.59:715][  3]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2023.11.30-01.13.31:287][144]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.11.30-01.13.31:293][144]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.30-01.13.31:293][144]PIE: New page: PIE session: VR_Prototype (29 Nov 2023, 15:13:31)
+[2023.11.30-01.13.31:340][144]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_VR_Prototype
+[2023.11.30-01.13.31:344][144]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004101s)
+[2023.11.30-01.13.31:344][144]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VR_Prototype.VR_Prototype to /Game/UEDPIE_0_VR_Prototype.VR_Prototype (0.004162s)
+[2023.11.30-01.13.31:367][144]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2023.11.30-01.13.31:368][144]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.30-01.13.31:369][144]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.30-01.13.31:369][144]LogAIModule: Creating AISystem for world VR_Prototype
+[2023.11.30-01.13.31:369][144]LogPlayLevel: PIE: World Init took: (0.001098s)
+[2023.11.30-01.13.31:370][144]LogAudio: Display: Creating Audio Device:                 Id: 36, Scope: Unique, Realtime: True
+[2023.11.30-01.13.31:370][144]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.30-01.13.31:370][144]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.30-01.13.31:370][144]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.30-01.13.31:370][144]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.30-01.13.31:370][144]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.30-01.13.31:370][144]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.30-01.13.31:370][144]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.30-01.13.31:370][144]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.30-01.13.31:370][144]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.30-01.13.31:370][144]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.30-01.13.31:370][144]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.30-01.13.31:373][144]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.30-01.13.31:506][144]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.11.30-01.13.31:507][144]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.30-01.13.31:507][144]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.30-01.13.31:507][144]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.30-01.13.31:507][144]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=36
+[2023.11.30-01.13.31:507][144]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=36
+[2023.11.30-01.13.31:510][144]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=36
+[2023.11.30-01.13.31:510][144]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=36
+[2023.11.30-01.13.31:510][144]LogInit: FAudioDevice initialized with ID 36.
+[2023.11.30-01.13.31:510][144]LogAudio: Display: Audio Device (ID: 36) registered with world 'VR_Prototype'.
+[2023.11.30-01.13.31:510][144]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 36
+[2023.11.30-01.13.31:538][144]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.30-01.13.31:756][144]LogLoad: Game class is 'VRGameMode_C'
+[2023.11.30-01.13.31:758][144]LogWorld: Bringing World /Game/UEDPIE_0_VR_Prototype.VR_Prototype up for play (max tick rate 0) at 2023.11.29-20.13.31
+[2023.11.30-01.13.31:758][144]LogWorld: Bringing up level for play took: 0.002027
+[2023.11.30-01.13.31:762][144]LogOnline: OSS: Created online subsystem instance for: :Context_56
+[2023.11.30-01.13.31:763][144]vr.PixelDensity = "1"
+[2023.11.30-01.13.31:767][144]PIE: Server logged in
+[2023.11.30-01.13.31:768][144]PIE: Play in editor total start time 0.476 seconds.
+[2023.11.30-01.13.31:774][144]LogViewport: Scene viewport resized to 3648x1840, mode Windowed.
+[2023.11.30-01.13.31:777][144]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.11.30-01.14.06:498][301]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.30-01.14.06:498][301]LogWorld: BeginTearingDown for /Game/UEDPIE_0_VR_Prototype
+[2023.11.30-01.14.06:546][301]LogSlate: Window 'PGfD_Prototype Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6) OpenXR Oculus (1.91.0)' being destroyed
+[2023.11.30-01.14.06:553][301]LogWorld: UWorld::CleanupWorld for VR_Prototype, bSessionEnded=true, bCleanupResources=true
+[2023.11.30-01.14.06:553][301]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.30-01.14.06:564][301]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.30-01.14.06:570][301]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.30-01.14.06:591][301]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 36
+[2023.11.30-01.14.06:591][301]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36
+[2023.11.30-01.14.06:595][301]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36
+[2023.11.30-01.14.06:606][301]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2023.11.30-01.14.06:741][302]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2023.11.30-01.14.16:711][390]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.11.30-01.14.16:719][390]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.30-01.14.16:719][390]PIE: New page: PIE session: VR_Prototype (29 Nov 2023, 15:14:16)
+[2023.11.30-01.14.16:756][390]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_VR_Prototype
+[2023.11.30-01.14.16:760][390]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003479s)
+[2023.11.30-01.14.16:760][390]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VR_Prototype.VR_Prototype to /Game/UEDPIE_0_VR_Prototype.VR_Prototype (0.003517s)
+[2023.11.30-01.14.16:778][390]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2023.11.30-01.14.16:780][390]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.30-01.14.16:780][390]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.30-01.14.16:781][390]LogAIModule: Creating AISystem for world VR_Prototype
+[2023.11.30-01.14.16:781][390]LogPlayLevel: PIE: World Init took: (0.001600s)
+[2023.11.30-01.14.16:781][390]LogAudio: Display: Creating Audio Device:                 Id: 37, Scope: Unique, Realtime: True
+[2023.11.30-01.14.16:781][390]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.30-01.14.16:781][390]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.30-01.14.16:781][390]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.30-01.14.16:782][390]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.30-01.14.16:782][390]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.30-01.14.16:782][390]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.30-01.14.16:782][390]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.30-01.14.16:782][390]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.30-01.14.16:782][390]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.30-01.14.16:782][390]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.30-01.14.16:782][390]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.30-01.14.16:785][390]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.30-01.14.16:918][390]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.11.30-01.14.16:918][390]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.30-01.14.16:918][390]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.30-01.14.16:918][390]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.30-01.14.16:918][390]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=37
+[2023.11.30-01.14.16:918][390]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=37
+[2023.11.30-01.14.16:921][390]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=37
+[2023.11.30-01.14.16:921][390]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=37
+[2023.11.30-01.14.16:921][390]LogInit: FAudioDevice initialized with ID 37.
+[2023.11.30-01.14.16:921][390]LogAudio: Display: Audio Device (ID: 37) registered with world 'VR_Prototype'.
+[2023.11.30-01.14.16:921][390]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 37
+[2023.11.30-01.14.16:950][390]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.30-01.14.17:168][390]LogLoad: Game class is 'VRGameMode_C'
+[2023.11.30-01.14.17:171][390]LogWorld: Bringing World /Game/UEDPIE_0_VR_Prototype.VR_Prototype up for play (max tick rate 0) at 2023.11.29-20.14.17
+[2023.11.30-01.14.17:171][390]LogWorld: Bringing up level for play took: 0.002604
+[2023.11.30-01.14.17:177][390]LogOnline: OSS: Created online subsystem instance for: :Context_57
+[2023.11.30-01.14.17:178][390]vr.PixelDensity = "1"
+[2023.11.30-01.14.17:183][390]PIE: Server logged in
+[2023.11.30-01.14.17:187][390]PIE: Play in editor total start time 0.469 seconds.
+[2023.11.30-01.14.17:191][390]LogViewport: Scene viewport resized to 3648x1840, mode Windowed.
+[2023.11.30-01.14.17:195][390]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.11.30-01.14.40:135][350]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.30-01.14.40:136][350]LogWorld: BeginTearingDown for /Game/UEDPIE_0_VR_Prototype
+[2023.11.30-01.14.40:174][350]LogSlate: Window 'PGfD_Prototype Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6) OpenXR Oculus (1.91.0)' being destroyed
+[2023.11.30-01.14.40:181][350]LogWorld: UWorld::CleanupWorld for VR_Prototype, bSessionEnded=true, bCleanupResources=true
+[2023.11.30-01.14.40:181][350]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.30-01.14.40:191][350]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.30-01.14.40:197][350]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.30-01.14.40:226][350]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 37
+[2023.11.30-01.14.40:226][350]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37
+[2023.11.30-01.14.40:228][350]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37
+[2023.11.30-01.14.40:243][350]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2023.11.30-01.14.40:405][351]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2023.11.30-01.14.49:271][259]LogViewport: Scene viewport resized to 482x281, mode Windowed.
+[2023.11.30-01.15.07:657][163]LogViewport: Scene viewport resized to 482x281, mode Windowed.
+[2023.11.30-01.15.20:115][245]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.30-01.15.20:217][245]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2023.11.30-01.15.20:231][245]LogSavePackage: Moving output files for package: /Game/VR_Prototype
+[2023.11.30-01.15.20:231][245]LogSavePackage: Moving '../../../../../../Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Saved/VR_PrototypeDFAFA49C4EB5D21DD04172BB6301A9C6.tmp' to '../../../../../../Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Content/VR_Prototype.umap'
+[2023.11.30-01.15.20:238][245]LogFileHelpers: Saving map 'VR_Prototype' took 0.058
+[2023.11.30-01.15.20:247][245]LogFileHelpers: InternalPromptForCheckoutAndSave took 131 ms (total: 4.14 sec)
+[2023.11.30-01.15.20:248][245]AssetCheck: New page: Asset Save: VR_Prototype
+[2023.11.30-01.15.20:248][245]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Prototype.VR_Prototype
+[2023.11.30-01.15.20:727][297]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.11.30-01.15.20:734][297]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.30-01.15.20:734][297]PIE: New page: PIE session: VR_Prototype (29 Nov 2023, 15:15:20)
+[2023.11.30-01.15.20:773][297]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_VR_Prototype
+[2023.11.30-01.15.20:777][297]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004232s)
+[2023.11.30-01.15.20:777][297]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VR_Prototype.VR_Prototype to /Game/UEDPIE_0_VR_Prototype.VR_Prototype (0.004302s)
+[2023.11.30-01.15.20:797][297]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2023.11.30-01.15.20:798][297]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.30-01.15.20:798][297]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.30-01.15.20:798][297]LogAIModule: Creating AISystem for world VR_Prototype
+[2023.11.30-01.15.20:799][297]LogPlayLevel: PIE: World Init took: (0.001117s)
+[2023.11.30-01.15.20:799][297]LogAudio: Display: Creating Audio Device:                 Id: 38, Scope: Unique, Realtime: True
+[2023.11.30-01.15.20:799][297]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.30-01.15.20:799][297]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.30-01.15.20:799][297]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.30-01.15.20:799][297]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.30-01.15.20:799][297]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.30-01.15.20:799][297]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.30-01.15.20:799][297]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.30-01.15.20:799][297]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.30-01.15.20:799][297]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.30-01.15.20:800][297]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.30-01.15.20:800][297]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.30-01.15.20:802][297]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.30-01.15.20:945][297]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.11.30-01.15.20:945][297]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.30-01.15.20:945][297]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.30-01.15.20:945][297]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.30-01.15.20:946][297]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=38
+[2023.11.30-01.15.20:946][297]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=38
+[2023.11.30-01.15.20:949][297]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=38
+[2023.11.30-01.15.20:949][297]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=38
+[2023.11.30-01.15.20:949][297]LogInit: FAudioDevice initialized with ID 38.
+[2023.11.30-01.15.20:950][297]LogAudio: Display: Audio Device (ID: 38) registered with world 'VR_Prototype'.
+[2023.11.30-01.15.20:950][297]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 38
+[2023.11.30-01.15.20:984][297]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.30-01.15.21:200][297]LogLoad: Game class is 'VRGameMode_C'
+[2023.11.30-01.15.21:204][297]LogWorld: Bringing World /Game/UEDPIE_0_VR_Prototype.VR_Prototype up for play (max tick rate 0) at 2023.11.29-20.15.21
+[2023.11.30-01.15.21:205][297]LogWorld: Bringing up level for play took: 0.003493
+[2023.11.30-01.15.21:208][297]LogOnline: OSS: Created online subsystem instance for: :Context_58
+[2023.11.30-01.15.21:209][297]vr.PixelDensity = "1"
+[2023.11.30-01.15.21:218][297]PIE: Server logged in
+[2023.11.30-01.15.21:221][297]PIE: Play in editor total start time 0.487 seconds.
+[2023.11.30-01.15.21:228][297]LogViewport: Scene viewport resized to 3648x1840, mode Windowed.
+[2023.11.30-01.15.21:232][297]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.11.30-01.15.42:091][221]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.30-01.15.42:091][221]LogWorld: BeginTearingDown for /Game/UEDPIE_0_VR_Prototype
+[2023.11.30-01.15.42:133][221]LogSlate: Window 'PGfD_Prototype Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6) OpenXR Oculus (1.91.0)' being destroyed
+[2023.11.30-01.15.42:138][221]LogWorld: UWorld::CleanupWorld for VR_Prototype, bSessionEnded=true, bCleanupResources=true
+[2023.11.30-01.15.42:138][221]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.30-01.15.42:148][221]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.30-01.15.42:153][221]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.30-01.15.42:176][221]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 38
+[2023.11.30-01.15.42:177][221]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38
+[2023.11.30-01.15.42:179][221]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38
+[2023.11.30-01.15.42:194][221]LogUObjectHash: Compacting FUObjectHashTables data took   3.89ms
+[2023.11.30-01.15.42:355][222]LogPlayLevel: Display: Destroying online subsystem :Context_58
+[2023.11.30-01.39.31:605][787]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Anton/Downloads/Pirate_Hat.fbx)
+[2023.11.30-01.39.31:646][787]LogFbx: Loading FBX Scene from ../../../../../../Users/Anton/Downloads/Pirate_Hat.fbx
+[2023.11.30-01.39.31:721][787]LogFbx: FBX Scene Loaded Succesfully
+[2023.11.30-01.39.34:200][787]LogSlate: Window 'FBX Import Options' being destroyed
+[2023.11.30-01.39.34:400][787]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2023.11.30-01.39.34:486][787]LogTexture: Display: Building textures: /Game/PirateHook/0_2.0_2 (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2023.11.30-01.39.34:670][787]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2023.11.30-01.39.34:769][787]LogTexture: Display: Building textures: /Game/PirateHook/2_2.2_2 (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 336.562488 MB), EncodeSpeed: Fast
+[2023.11.30-01.39.34:780][787]LogStaticMesh: Display: Building static mesh Pirate_Hat...
+[2023.11.30-01.39.34:803][787]LogStaticMesh: Adjacency [0.00s], tris: 1926, UVs 4
+[2023.11.30-01.39.34:808][787]LogStaticMesh: Clustering [0.00s]. Ratio: 1.312500
+[2023.11.30-01.39.34:808][787]LogStaticMesh: Leaves [0.00s]
+[2023.11.30-01.39.34:973][787]LogStaticMesh: Reduce [0.16s]
+[2023.11.30-01.39.35:029][787]LogStaticMesh: Fallback 0/1 [0.06s], num tris: 1212
+[2023.11.30-01.39.35:030][787]LogStaticMesh: ConstrainClusters:
+[2023.11.30-01.39.35:030][787]LogStaticMesh:   Input: 36 Clusters, 3816 Triangles and 3271 Vertices
+[2023.11.30-01.39.35:030][787]LogStaticMesh:   Output without splits: 36 Clusters, 3816 Triangles and 3289 Vertices
+[2023.11.30-01.39.35:030][787]LogStaticMesh:   Output with splits: 36 Clusters, 3816 Triangles and 3289 Vertices
+[2023.11.30-01.39.35:030][787]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 36, Slow Path Clusters: 0, 1 Material: 36, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2023.11.30-01.39.35:032][787]LogStaticMesh: WritePages:
+[2023.11.30-01.39.35:032][787]LogStaticMesh:   Root: GPU size: 31024 bytes. 1 Pages. 31024.000 bytes per page (94.678% utilization).
+[2023.11.30-01.39.35:032][787]LogStaticMesh:   Streaming: GPU size: 47268 bytes. 1 Pages (1 with relative encoding). 47268.000 bytes per page (36.063% utilization).
+[2023.11.30-01.39.35:032][787]LogStaticMesh:   Page data disk size: 59428 bytes. Fixup data size: 240 bytes.
+[2023.11.30-01.39.35:032][787]LogStaticMesh:   Total GPU size: 78292 bytes, Total disk size: 59668 bytes.
+[2023.11.30-01.39.35:032][787]LogStaticMesh: Encode [0.00s]
+[2023.11.30-01.39.35:032][787]LogStaticMesh: Nanite build [0.22s]
+
+[2023.11.30-01.39.35:070][787]LogStaticMesh: Built static mesh [0.34s] /Game/PirateHook/Pirate_Hat.Pirate_Hat
+[2023.11.30-01.39.35:125][787]FBXImport: FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material '' was renamed '_ncl1_1' 
+[2023.11.30-01.39.35:125][787]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2023.11.30-01.39.38:727][992]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2023.11.30-01.39.38:729][992]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VR_Prototype' took 0.024
+[2023.11.30-01.39.38:730][992]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PirateHook/Pirate_Hat] ([1] browsable assets)...
+[2023.11.30-01.39.38:744][992]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/PirateHook/Pirate_Hat.Pirate_Hat]
+[2023.11.30-01.39.38:744][992]OBJ SavePackage: Finished generating thumbnails for package [/Game/PirateHook/Pirate_Hat]
+[2023.11.30-01.39.38:749][992]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/PirateHook/Pirate_Hat_Auto5
+[2023.11.30-01.39.38:749][992]LogSavePackage: Moving '../../../../../../Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Saved/Pirate_Hat_Auto5A8F0BE8F4975DD47E396D1B1C1839682.tmp' to '../../../../../../Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Saved/Autosaves/Game/PirateHook/Pirate_Hat_Auto5.uasset'
+[2023.11.30-01.39.38:750][992]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PirateHook/2_2] ([1] browsable assets)...
+[2023.11.30-01.39.38:753][992]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/PirateHook/2_2.2_2]
+[2023.11.30-01.39.38:753][992]OBJ SavePackage: Finished generating thumbnails for package [/Game/PirateHook/2_2]
+[2023.11.30-01.39.38:790][992]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/PirateHook/2_2_Auto5
+[2023.11.30-01.39.38:790][992]LogSavePackage: Moving '../../../../../../Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Saved/2_2_Auto55AC5B2474010B2393EEAA58852745F0B.tmp' to '../../../../../../Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Saved/Autosaves/Game/PirateHook/2_2_Auto5.uasset'
+[2023.11.30-01.39.38:791][992]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PirateHook/0_2] ([1] browsable assets)...
+[2023.11.30-01.39.38:793][992]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/PirateHook/0_2.0_2]
+[2023.11.30-01.39.38:793][992]OBJ SavePackage: Finished generating thumbnails for package [/Game/PirateHook/0_2]
+[2023.11.30-01.39.38:805][992]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/PirateHook/0_2_Auto5
+[2023.11.30-01.39.38:805][992]LogSavePackage: Moving '../../../../../../Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Saved/0_2_Auto5F04A829E4A96F5CC0DBA93BD257E84B7.tmp' to '../../../../../../Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Saved/Autosaves/Game/PirateHook/0_2_Auto5.uasset'
+[2023.11.30-01.39.38:806][992]LogFileHelpers: Auto-saving content packages took 0.076
+[2023.11.30-01.39.40:722][122]LogSlate: Window 'Content Browser' being destroyed
+[2023.11.30-01.39.40:733][122]LogSlate: Window 'Content Browser' being destroyed
+[2023.11.30-01.39.41:941][225]LogSlate: Window 'Message Log' being destroyed
+[2023.11.30-01.39.41:952][225]LogSlate: Window 'Message Log' being destroyed
+[2023.11.30-01.39.45:004][472]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/PirateHook/Pirate_Hat.Pirate_Hat
+[2023.11.30-01.39.45:004][472]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/PirateHook/Pirate_Hat.Pirate_Hat
+[2023.11.30-01.39.45:005][472]LogActorFactory: Actor Factory spawned StaticMesh /Game/PirateHook/Pirate_Hat.Pirate_Hat as actor: StaticMeshActor /Game/VR_Prototype.VR_Prototype:PersistentLevel.StaticMeshActor_5
+[2023.11.30-01.39.45:639][525]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/PirateHook/Pirate_Hat.Pirate_Hat
+[2023.11.30-01.39.45:639][525]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/PirateHook/Pirate_Hat.Pirate_Hat
+[2023.11.30-01.39.45:640][525]LogActorFactory: Actor Factory spawned StaticMesh /Game/PirateHook/Pirate_Hat.Pirate_Hat as actor: StaticMeshActor /Game/VR_Prototype.VR_Prototype:PersistentLevel.StaticMeshActor_6
+[2023.11.30-01.40.04:065][185]Cmd: EDIT COPY
+[2023.11.30-01.40.04:332][207]Cmd: EDIT PASTE
+[2023.11.30-01.40.33:870][480]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.11.30-01.41.03:558][776]Cmd: DELETE
+[2023.11.30-01.41.03:558][776]Cmd: ACTOR DELETE
+[2023.11.30-01.41.03:563][776]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.11.30-01.41.03:588][776]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2023.11.30-01.41.03:591][776]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2023.11.30-01.41.05:287][974]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.30-01.41.05:401][974]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2023.11.30-01.41.05:417][974]LogSavePackage: Moving output files for package: /Game/VR_Prototype
+[2023.11.30-01.41.05:417][974]LogSavePackage: Moving '../../../../../../Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Saved/VR_Prototype8CDAF6D94C89293A41813299FF1DB9FD.tmp' to '../../../../../../Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Content/VR_Prototype.umap'
+[2023.11.30-01.41.05:424][974]LogFileHelpers: Saving map 'VR_Prototype' took 0.062
+[2023.11.30-01.41.05:436][974]LogFileHelpers: InternalPromptForCheckoutAndSave took 149 ms (total: 4.29 sec)
+[2023.11.30-01.41.05:439][974]AssetCheck: New page: Asset Save: VR_Prototype
+[2023.11.30-01.41.05:439][974]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Prototype.VR_Prototype
+[2023.11.30-01.41.15:594][ 27]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2023.11.30-01.41.15:604][ 27]LogContentBrowser: Creating deferred item: NewMaterial
+[2023.11.30-01.41.15:628][ 28]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial).
+[2023.11.30-01.41.16:449][115]LogContentBrowser: Attempting asset rename: NewMaterial -> NewMaterial
+[2023.11.30-01.41.16:453][115]LogContentBrowser: End creating deferred item NewMaterial
+[2023.11.30-01.41.17:219][184]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/PirateHook/NewMaterial.NewMaterial
+[2023.11.30-01.41.17:689][184]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.30-01.41.17:689][184]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.30-01.41.18:310][184]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.30-01.41.18:310][184]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.30-01.41.18:310][184]MaterialEditorStats: Shader Count: 0
+[2023.11.30-01.41.18:319][184]LogViewport: Scene viewport resized to 376x444, mode Windowed.
+[2023.11.30-01.41.20:650][373]LogShaderCompilers: Display: ================================================
+[2023.11.30-01.41.20:650][373]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.11.30-01.41.20:650][373]LogShaderCompilers: Display: Total job queries 100, among them cache hits 33 (33.00%)
+[2023.11.30-01.41.20:650][373]LogShaderCompilers: Display: Tracking 65 distinct input hashes that result in 49 distinct outputs (75.38%)
+[2023.11.30-01.41.20:650][373]LogShaderCompilers: Display: RAM used: 2.33 MiB of 819.20 MiB budget. Usage: 0.28%
+[2023.11.30-01.41.20:650][373]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.11.30-01.41.20:650][373]LogShaderCompilers: Display: Shaders Compiled: 7
+[2023.11.30-01.41.20:650][373]LogShaderCompilers: Display: Jobs assigned 9, completed 7 (77.78%)
+[2023.11.30-01.41.20:650][373]LogShaderCompilers: Display: Average time worker was idle: 77655.56 s
+[2023.11.30-01.41.20:650][373]LogShaderCompilers: Display: Time job spent in pending queue: average 0.09 s, longest 0.16 s
+[2023.11.30-01.41.20:650][373]LogShaderCompilers: Display: Job execution time: average 2.80 s, max 3.12 s
+[2023.11.30-01.41.20:650][373]LogShaderCompilers: Display: Job life time (pending + execution): average 2.90 s, max 3.21
+[2023.11.30-01.41.20:651][373]LogShaderCompilers: Display: Shader code size: average 40.303 KiB, min 3.93 KiB, max 74.355 KiB
+[2023.11.30-01.41.20:651][373]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 5.60 s
+[2023.11.30-01.41.20:651][373]LogShaderCompilers: Display: Jobs were issued in 9 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.11.30-01.41.20:651][373]LogShaderCompilers: Display: Average processing rate: 1.25 jobs/sec
+[2023.11.30-01.41.20:651][373]LogShaderCompilers: Display: Total thread time: 8.499 s
+[2023.11.30-01.41.20:651][373]LogShaderCompilers: Display: Total thread preprocess time: 4.946 s
+[2023.11.30-01.41.20:651][373]LogShaderCompilers: Display: Percentage time preprocessing: 58.19%
+[2023.11.30-01.41.20:651][373]LogShaderCompilers: Display: Effective parallelization: 1.52 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.11.30-01.41.20:651][373]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.11.30-01.41.20:651][373]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 1.43 sec, max 1.43 sec, min 1.43 sec)
+[2023.11.30-01.41.20:651][373]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    2 times, average 1.35 sec, max 1.39 sec, min 1.31 sec)
+[2023.11.30-01.41.20:651][373]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    1 times, average 1.09 sec, max 1.09 sec, min 1.09 sec)
+[2023.11.30-01.41.20:651][373]LogShaderCompilers: Display:                                                  FHitProxyPS (compiled    1 times, average 0.81 sec, max 0.81 sec, min 0.81 sec)
+[2023.11.30-01.41.20:651][373]LogShaderCompilers: Display:                                                 FDepthOnlyPS (compiled    1 times, average 0.77 sec, max 0.77 sec, min 0.77 sec)
+[2023.11.30-01.41.20:651][373]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.11.30-01.41.20:651][373]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 31.70% of total time (compiled    2 times, average 1.35 sec, max 1.39 sec, min 1.31 sec)
+[2023.11.30-01.41.20:651][373]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 16.86% of total time (compiled    1 times, average 1.43 sec, max 1.43 sec, min 1.43 sec)
+[2023.11.30-01.41.20:651][373]LogShaderCompilers: Display:                                                  FHitProxyVS - 12.85% of total time (compiled    1 times, average 1.09 sec, max 1.09 sec, min 1.09 sec)
+[2023.11.30-01.41.20:651][373]LogShaderCompilers: Display:                                                  FHitProxyPS - 9.50% of total time (compiled    1 times, average 0.81 sec, max 0.81 sec, min 0.81 sec)
+[2023.11.30-01.41.20:651][373]LogShaderCompilers: Display:                                                 FDepthOnlyPS - 9.10% of total time (compiled    1 times, average 0.77 sec, max 0.77 sec, min 0.77 sec)
+[2023.11.30-01.41.20:651][373]LogShaderCompilers: Display: ================================================
+[2023.11.30-01.41.20:660][374]MaterialEditorStats: Base pass vertex shader: 263 instructions
+[2023.11.30-01.41.20:660][374]MaterialEditorStats: Texture samplers: 2/16
+[2023.11.30-01.41.20:660][374]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.30-01.41.20:660][374]MaterialEditorStats: Shader Count: 1
+[2023.11.30-01.41.24:013][716]MaterialEditorStats: Base pass vertex shader: 263 instructions
+[2023.11.30-01.41.24:013][716]MaterialEditorStats: Texture samplers: 4/16
+[2023.11.30-01.41.24:013][716]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.30-01.41.24:013][716]MaterialEditorStats: Shader Count: 2
+[2023.11.30-01.41.40:569][281]LogViewport: Scene viewport resized to 375x456, mode Windowed.
+[2023.11.30-01.41.40:645][283]LogViewport: Scene viewport resized to 154x158, mode Windowed.
+[2023.11.30-01.41.40:676][284]LogViewport: Scene viewport resized to 151x155, mode Windowed.
+[2023.11.30-01.41.41:788][355]LogViewport: Scene viewport resized to 376x444, mode Windowed.
+[2023.11.30-01.41.42:242][397]LogViewport: Scene viewport resized to 375x456, mode Windowed.
+[2023.11.30-01.41.42:330][399]LogViewport: Scene viewport resized to 156x161, mode Windowed.
+[2023.11.30-01.41.42:362][400]LogViewport: Scene viewport resized to 151x155, mode Windowed.
+[2023.11.30-01.41.42:601][415]LogViewport: Scene viewport resized to 376x444, mode Windowed.
+[2023.11.30-01.41.43:823][539]LogViewport: Scene viewport resized to 375x456, mode Windowed.
+[2023.11.30-01.41.43:922][541]LogViewport: Scene viewport resized to 152x156, mode Windowed.
+[2023.11.30-01.41.43:959][542]LogViewport: Scene viewport resized to 151x155, mode Windowed.
+[2023.11.30-01.41.44:627][587]LogViewport: Scene viewport resized to 152x160, mode Windowed.
+[2023.11.30-01.41.48:913][897]LogViewport: Scene viewport resized to 152x161, mode Windowed.
+[2023.11.30-01.41.48:941][897]LogViewport: Scene viewport resized to 152x168, mode Windowed.
+[2023.11.30-01.41.48:969][897]LogViewport: Scene viewport resized to 152x183, mode Windowed.
+[2023.11.30-01.41.48:996][897]LogViewport: Scene viewport resized to 152x207, mode Windowed.
+[2023.11.30-01.41.49:024][897]LogViewport: Scene viewport resized to 152x233, mode Windowed.
+[2023.11.30-01.41.49:058][897]LogViewport: Scene viewport resized to 152x250, mode Windowed.
+[2023.11.30-01.41.49:100][897]LogViewport: Scene viewport resized to 152x278, mode Windowed.
+[2023.11.30-01.41.49:129][897]LogViewport: Scene viewport resized to 152x286, mode Windowed.
+[2023.11.30-01.41.49:163][897]LogViewport: Scene viewport resized to 152x288, mode Windowed.
+[2023.11.30-01.41.49:196][897]LogViewport: Scene viewport resized to 152x294, mode Windowed.
+[2023.11.30-01.41.49:226][897]LogViewport: Scene viewport resized to 152x298, mode Windowed.
+[2023.11.30-01.41.49:269][897]LogViewport: Scene viewport resized to 152x299, mode Windowed.
+[2023.11.30-01.41.49:302][897]LogViewport: Scene viewport resized to 152x302, mode Windowed.
+[2023.11.30-01.41.49:392][897]LogViewport: Scene viewport resized to 152x300, mode Windowed.
+[2023.11.30-01.41.50:551][980]LogViewport: Scene viewport resized to 153x300, mode Windowed.
+[2023.11.30-01.41.50:587][980]LogViewport: Scene viewport resized to 158x300, mode Windowed.
+[2023.11.30-01.41.50:620][980]LogViewport: Scene viewport resized to 168x300, mode Windowed.
+[2023.11.30-01.41.50:649][980]LogViewport: Scene viewport resized to 176x300, mode Windowed.
+[2023.11.30-01.41.50:683][980]LogViewport: Scene viewport resized to 181x300, mode Windowed.
+[2023.11.30-01.41.50:711][980]LogViewport: Scene viewport resized to 188x300, mode Windowed.
+[2023.11.30-01.41.50:745][980]LogViewport: Scene viewport resized to 194x300, mode Windowed.
+[2023.11.30-01.41.50:773][980]LogViewport: Scene viewport resized to 200x300, mode Windowed.
+[2023.11.30-01.41.50:806][980]LogViewport: Scene viewport resized to 206x300, mode Windowed.
+[2023.11.30-01.41.50:836][980]LogViewport: Scene viewport resized to 207x300, mode Windowed.
+[2023.11.30-01.41.51:169][980]LogViewport: Scene viewport resized to 208x300, mode Windowed.
+[2023.11.30-01.41.51:225][980]LogViewport: Scene viewport resized to 209x300, mode Windowed.
+[2023.11.30-01.41.56:832][351]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.30-01.41.56:833][351]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.30-01.41.56:833][351]MaterialEditorStats: Shader Count: 0
+[2023.11.30-01.41.57:022][353]MaterialEditorStats: Base pass vertex shader: 263 instructions
+[2023.11.30-01.41.57:022][353]MaterialEditorStats: Texture samplers: 4/16
+[2023.11.30-01.41.57:022][353]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.11.30-01.41.57:022][353]MaterialEditorStats: Shader Count: 2
+[2023.11.30-01.42.04:252][870]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.30-01.42.04:252][870]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.11.30-01.42.04:252][870]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.11.30-01.42.04:252][870]MaterialEditorStats: Shader Count: 0
+[2023.11.30-01.42.05:129][926]MaterialEditorStats: Base pass vertex shader: 269 instructions
+[2023.11.30-01.42.05:129][926]MaterialEditorStats: Texture samplers: 2/16
+[2023.11.30-01.42.05:129][926]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.11.30-01.42.05:129][926]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.11.30-01.42.05:129][926]MaterialEditorStats: Shader Count: 1
+[2023.11.30-01.42.07:731][ 97]MaterialEditorStats: Base pass vertex shader: 269 instructions
+[2023.11.30-01.42.07:731][ 97]MaterialEditorStats: Texture samplers: 5/16
+[2023.11.30-01.42.07:731][ 97]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.11.30-01.42.07:731][ 97]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.11.30-01.42.07:731][ 97]MaterialEditorStats: Shader Count: 2
+[2023.11.30-01.42.17:280][660]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.30-01.42.17:280][660]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.11.30-01.42.17:280][660]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.11.30-01.42.17:280][660]MaterialEditorStats: Shader Count: 0
+[2023.11.30-01.42.17:351][662]MaterialEditorStats: Base pass vertex shader: 269 instructions
+[2023.11.30-01.42.17:351][662]MaterialEditorStats: Texture samplers: 5/16
+[2023.11.30-01.42.17:351][662]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.11.30-01.42.17:351][662]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.11.30-01.42.17:351][662]MaterialEditorStats: Shader Count: 2
+[2023.11.30-01.42.20:166][840]MaterialEditorStats: Texture samplers: 0/16
+[2023.11.30-01.42.20:166][840]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.11.30-01.42.20:166][840]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.11.30-01.42.20:167][840]MaterialEditorStats: Shader Count: 0
+[2023.11.30-01.42.20:955][890]MaterialEditorStats: Base pass vertex shader: 269 instructions
+[2023.11.30-01.42.20:956][890]MaterialEditorStats: Texture samplers: 2/16
+[2023.11.30-01.42.20:956][890]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.11.30-01.42.20:956][890]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.11.30-01.42.20:956][890]MaterialEditorStats: Shader Count: 1
+[2023.11.30-01.42.23:572][ 60]MaterialEditorStats: Base pass vertex shader: 269 instructions
+[2023.11.30-01.42.23:573][ 60]MaterialEditorStats: Texture samplers: 6/16
+[2023.11.30-01.42.23:573][ 60]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.11.30-01.42.23:573][ 60]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.11.30-01.42.23:573][ 60]MaterialEditorStats: Shader Count: 2
+[2023.11.30-01.42.27:285][311]LogMaterialEditor: Applying material NewMaterial
+[2023.11.30-01.42.28:739][311]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2023.11.30-01.42.29:350][311]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2023.11.30-01.42.29:378][311]MaterialEditorStats: Texture samplers: 2/16
+[2023.11.30-01.42.29:378][311]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.11.30-01.42.29:378][311]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.11.30-01.42.29:378][311]MaterialEditorStats: Shader Count: 2
+[2023.11.30-01.42.29:397][312]MaterialEditorStats: Base pass vertex shader: 269 instructions
+[2023.11.30-01.42.29:397][312]MaterialEditorStats: Texture samplers: 6/16
+[2023.11.30-01.42.29:397][312]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.11.30-01.42.29:397][312]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.11.30-01.42.29:397][312]MaterialEditorStats: Shader Count: 4
+[2023.11.30-01.42.48:066][631]LogViewport: Scene viewport resized to 208x311, mode Windowed.
+[2023.11.30-01.42.48:201][633]LogViewport: Scene viewport resized to 151x214, mode Windowed.
+[2023.11.30-01.42.48:561][655]LogViewport: Scene viewport resized to 376x444, mode Windowed.
+[2023.11.30-01.42.50:213][814]LogSlate: Window 'NewMaterial' being destroyed
+[2023.11.30-01.42.59:764][725]LogContentBrowser: Attempting asset rename: NewMaterial -> HatMaterial
+[2023.11.30-01.43.01:370][725]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.30-01.43.03:505][725]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s, reporting...
+[2023.11.30-01.43.03:672][725]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' report submitted, and took 0.166486s
+[2023.11.30-01.43.05:811][725]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 4.309308s (2.309308s overbudget)
+[2023.11.30-01.43.05:914][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PirateHook/HatMaterial" FILE="../../../../../../Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Content/PirateHook/HatMaterial.uasset" SILENT=true
+[2023.11.30-01.43.05:930][725]LogSavePackage: Moving output files for package: /Game/PirateHook/HatMaterial
+[2023.11.30-01.43.05:930][725]LogSavePackage: Moving '../../../../../../Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Saved/HatMaterial97A8688541A059BFD00A988329940353.tmp' to '../../../../../../Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Content/PirateHook/HatMaterial.uasset'
+[2023.11.30-01.43.05:949][725]LogFileHelpers: InternalPromptForCheckoutAndSave took 4.57 sec (total: 8.87 sec)
+[2023.11.30-01.43.05:994][725]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2023.11.30-01.43.06:015][725]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2023.11.30-01.43.06:033][725]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2023.11.30-01.43.06:035][725]AssetCheck: New page: Asset Save: HatMaterial
+[2023.11.30-01.43.06:035][725]LogContentValidation: Display: Validating /Script/Engine.Material /Game/PirateHook/HatMaterial.HatMaterial
+[2023.11.30-01.43.06:037][725]MaterialEditorStats: Base pass shader: 755 instructions
+[2023.11.30-01.43.06:037][725]MaterialEditorStats: Base pass vertex shader: 269 instructions
+[2023.11.30-01.43.06:037][725]MaterialEditorStats: MaxSampler: 803 instructions
+[2023.11.30-01.43.06:037][725]MaterialEditorStats: Texture samplers: 7/16
+[2023.11.30-01.43.06:037][725]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.11.30-01.43.06:037][725]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.11.30-01.43.06:037][725]MaterialEditorStats: Shader Count: 14
+[2023.11.30-01.43.12:179][392]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.30-01.43.12:291][392]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2023.11.30-01.43.12:305][392]LogSavePackage: Moving output files for package: /Game/VR_Prototype
+[2023.11.30-01.43.12:306][392]LogSavePackage: Moving '../../../../../../Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Saved/VR_Prototype5089A7BC42FBBD15897C1C9FE76E37C0.tmp' to '../../../../../../Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Content/VR_Prototype.umap'
+[2023.11.30-01.43.12:315][392]LogFileHelpers: Saving map 'VR_Prototype' took 0.061
+[2023.11.30-01.43.12:328][392]LogFileHelpers: InternalPromptForCheckoutAndSave took 148 ms (total: 9.02 sec)
+[2023.11.30-01.43.12:329][392]AssetCheck: New page: Asset Save: VR_Prototype
+[2023.11.30-01.43.12:330][392]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Prototype.VR_Prototype
+[2023.11.30-01.43.18:495][ 93]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.11.30-01.43.18:503][ 93]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.30-01.43.18:503][ 93]PIE: New page: PIE session: VR_Prototype (29 Nov 2023, 15:43:18)
+[2023.11.30-01.43.18:535][ 93]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_VR_Prototype
+[2023.11.30-01.43.18:596][ 93]LogPlayLevel: PIE: StaticDuplicateObject took: (0.061342s)
+[2023.11.30-01.43.18:596][ 93]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VR_Prototype.VR_Prototype to /Game/UEDPIE_0_VR_Prototype.VR_Prototype (0.061390s)
+[2023.11.30-01.43.18:617][ 93]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2023.11.30-01.43.18:618][ 93]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.30-01.43.18:618][ 93]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.30-01.43.18:618][ 93]LogAIModule: Creating AISystem for world VR_Prototype
+[2023.11.30-01.43.18:619][ 93]LogPlayLevel: PIE: World Init took: (0.001247s)
+[2023.11.30-01.43.18:619][ 93]LogAudio: Display: Creating Audio Device:                 Id: 39, Scope: Unique, Realtime: True
+[2023.11.30-01.43.18:619][ 93]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.30-01.43.18:619][ 93]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.30-01.43.18:619][ 93]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.30-01.43.18:619][ 93]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.30-01.43.18:619][ 93]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.30-01.43.18:619][ 93]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.30-01.43.18:619][ 93]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.30-01.43.18:619][ 93]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.30-01.43.18:620][ 93]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.30-01.43.18:620][ 93]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.30-01.43.18:620][ 93]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.30-01.43.18:623][ 93]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.30-01.43.18:781][ 93]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.11.30-01.43.18:782][ 93]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.30-01.43.18:782][ 93]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.30-01.43.18:782][ 93]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.30-01.43.18:784][ 93]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=39
+[2023.11.30-01.43.18:784][ 93]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=39
+[2023.11.30-01.43.18:785][ 93]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=39
+[2023.11.30-01.43.18:785][ 93]LogInit: FAudioDevice initialized with ID 39.
+[2023.11.30-01.43.18:785][ 93]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=39
+[2023.11.30-01.43.18:785][ 93]LogAudio: Display: Audio Device (ID: 39) registered with world 'VR_Prototype'.
+[2023.11.30-01.43.18:785][ 93]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 39
+[2023.11.30-01.43.18:815][ 93]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.30-01.43.19:043][ 93]LogLoad: Game class is 'VRGameMode_C'
+[2023.11.30-01.43.19:045][ 93]LogWorld: Bringing World /Game/UEDPIE_0_VR_Prototype.VR_Prototype up for play (max tick rate 0) at 2023.11.29-20.43.19
+[2023.11.30-01.43.19:046][ 93]LogWorld: Bringing up level for play took: 0.002297
+[2023.11.30-01.43.19:048][ 93]LogOnline: OSS: Created online subsystem instance for: :Context_60
+[2023.11.30-01.43.19:049][ 93]vr.PixelDensity = "1"
+[2023.11.30-01.43.19:052][ 93]PIE: Server logged in
+[2023.11.30-01.43.19:055][ 93]PIE: Play in editor total start time 0.552 seconds.
+[2023.11.30-01.43.19:059][ 93]LogViewport: Scene viewport resized to 3648x1840, mode Windowed.
+[2023.11.30-01.43.19:062][ 93]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.11.30-01.43.30:656][459]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.30-01.43.30:656][459]LogWorld: BeginTearingDown for /Game/UEDPIE_0_VR_Prototype
+[2023.11.30-01.43.30:726][459]LogSlate: Window 'PGfD_Prototype Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6) OpenXR Oculus (1.91.0)' being destroyed
+[2023.11.30-01.43.30:732][459]LogWorld: UWorld::CleanupWorld for VR_Prototype, bSessionEnded=true, bCleanupResources=true
+[2023.11.30-01.43.30:732][459]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.30-01.43.30:747][459]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.30-01.43.30:755][459]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.30-01.43.30:788][459]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 39
+[2023.11.30-01.43.30:788][459]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=39
+[2023.11.30-01.43.30:794][459]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=39
+[2023.11.30-01.43.30:814][459]LogUObjectHash: Compacting FUObjectHashTables data took   4.20ms
+[2023.11.30-01.43.30:958][460]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2023.11.30-01.43.31:516][518]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.11.30-01.43.31:525][518]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.30-01.43.31:525][518]PIE: New page: PIE session: VR_Prototype (29 Nov 2023, 15:43:31)
+[2023.11.30-01.43.31:525][518]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_VR_Prototype
+[2023.11.30-01.43.31:531][518]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006278s)
+[2023.11.30-01.43.31:531][518]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VR_Prototype.VR_Prototype to /Game/UEDPIE_0_VR_Prototype.VR_Prototype (0.006323s)
+[2023.11.30-01.43.31:555][518]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2023.11.30-01.43.31:556][518]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.30-01.43.31:556][518]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.30-01.43.31:556][518]LogAIModule: Creating AISystem for world VR_Prototype
+[2023.11.30-01.43.31:556][518]LogPlayLevel: PIE: World Init took: (0.001030s)
+[2023.11.30-01.43.31:557][518]LogAudio: Display: Creating Audio Device:                 Id: 40, Scope: Unique, Realtime: True
+[2023.11.30-01.43.31:557][518]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.30-01.43.31:557][518]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.30-01.43.31:557][518]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.30-01.43.31:557][518]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.30-01.43.31:557][518]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.30-01.43.31:557][518]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.30-01.43.31:557][518]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.30-01.43.31:557][518]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.30-01.43.31:557][518]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.30-01.43.31:557][518]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.30-01.43.31:557][518]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.30-01.43.31:560][518]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.30-01.43.31:716][518]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.11.30-01.43.31:717][518]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.30-01.43.31:717][518]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.30-01.43.31:717][518]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.30-01.43.31:718][518]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=40
+[2023.11.30-01.43.31:718][518]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=40
+[2023.11.30-01.43.31:721][518]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=40
+[2023.11.30-01.43.31:721][518]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=40
+[2023.11.30-01.43.31:721][518]LogInit: FAudioDevice initialized with ID 40.
+[2023.11.30-01.43.31:721][518]LogAudio: Display: Audio Device (ID: 40) registered with world 'VR_Prototype'.
+[2023.11.30-01.43.31:721][518]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 40
+[2023.11.30-01.43.31:753][518]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.30-01.43.31:988][518]LogLoad: Game class is 'VRGameMode_C'
+[2023.11.30-01.43.31:995][518]LogWorld: Bringing World /Game/UEDPIE_0_VR_Prototype.VR_Prototype up for play (max tick rate 0) at 2023.11.29-20.43.31
+[2023.11.30-01.43.31:996][518]LogWorld: Bringing up level for play took: 0.006720
+[2023.11.30-01.43.32:001][518]LogOnline: OSS: Created online subsystem instance for: :Context_61
+[2023.11.30-01.43.32:004][518]vr.PixelDensity = "1"
+[2023.11.30-01.43.32:009][518]PIE: Server logged in
+[2023.11.30-01.43.32:015][518]PIE: Play in editor total start time 0.49 seconds.
+[2023.11.30-01.43.32:021][518]LogViewport: Scene viewport resized to 3648x1840, mode Windowed.
+[2023.11.30-01.43.32:027][518]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.11.30-01.43.35:854][630]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.11.30-01.43.37:795][690]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.11.30-01.43.58:404][438]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.30-01.43.58:404][438]LogWorld: BeginTearingDown for /Game/UEDPIE_0_VR_Prototype
+[2023.11.30-01.43.58:464][438]LogSlate: Window 'PGfD_Prototype Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6) OpenXR Oculus (1.91.0)' being destroyed
+[2023.11.30-01.43.58:469][438]LogWorld: UWorld::CleanupWorld for VR_Prototype, bSessionEnded=true, bCleanupResources=true
+[2023.11.30-01.43.58:469][438]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.30-01.43.58:483][438]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.30-01.43.58:490][438]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.30-01.43.58:524][438]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 40
+[2023.11.30-01.43.58:524][438]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=40
+[2023.11.30-01.43.58:527][438]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=40
+[2023.11.30-01.43.58:551][438]LogUObjectHash: Compacting FUObjectHashTables data took   3.79ms
+[2023.11.30-01.43.58:678][439]LogPlayLevel: Display: Destroying online subsystem :Context_61
