@@ -1524,3 +1524,22 @@ The following settings have been applied:
 [2023.12.01-03.25.49:536][151]LogFileHelpers: InternalPromptForCheckoutAndSave took 191 ms (total: 533 ms)
 [2023.12.01-03.25.49:543][151]AssetCheck: New page: Asset Save: VRPawn
 [2023.12.01-03.25.49:543][151]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VRTemplate/Blueprints/VRPawn.VRPawn
+[2023.12.01-03.26.08:498][403]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2023.12.01-03.26.21:135][887]BlueprintLog: New page: Compile VRPawn
+[2023.12.01-03.26.21:278][887]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2023.12.01-03.26.22:403][926]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.01-03.26.22:579][926]LogSavePackage: Moving output files for package: /Game/VRTemplate/Blueprints/VRPawn
+[2023.12.01-03.26.22:581][926]LogSavePackage: Moving '../../../../../../Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Saved/VRPawn04F56EF84567BA525D5E44B98273D872.tmp' to '../../../../../../Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Content/VRTemplate/Blueprints/VRPawn.uasset'
+[2023.12.01-03.26.22:593][926]LogFileHelpers: InternalPromptForCheckoutAndSave took 189 ms (total: 722 ms)
+[2023.12.01-03.26.22:597][926]AssetCheck: New page: Asset Save: VRPawn
+[2023.12.01-03.26.22:597][926]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VRTemplate/Blueprints/VRPawn.VRPawn
+[2023.12.01-03.26.24:520][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2023.12.01-03.26.39:925][383]BlueprintLog: New page: Compile VRPawn
+[2023.12.01-03.26.40:063][383]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2023.12.01-03.26.41:426][439]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.01-03.26.41:594][439]LogSavePackage: Moving output files for package: /Game/VRTemplate/Blueprints/VRPawn
+[2023.12.01-03.26.41:595][439]LogSavePackage: Moving '../../../../../../Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Saved/VRPawn9C91A3F94F65FD66699518AD185FD030.tmp' to '../../../../../../Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Content/VRTemplate/Blueprints/VRPawn.uasset'
+[2023.12.01-03.26.41:608][439]LogFileHelpers: InternalPromptForCheckoutAndSave took 181 ms (total: 903 ms)
+[2023.12.01-03.26.41:610][439]AssetCheck: New page: Asset Save: VRPawn
+[2023.12.01-03.26.41:610][439]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VRTemplate/Blueprints/VRPawn.VRPawn
+[2023.12.01-03.26.44:660][616]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
