@@ -72,3 +72,10 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+PGfD_Prototype/Saved/Logs/PGfD_Prototype_2.log
+PGfD_Prototype/Saved/webcache_4430/Cache/data_0
+PGfD_Prototype/Saved/webcache_4430/Cache/data_1
+PGfD_Prototype/Saved/webcache_4430/Cache/data_2
+PGfD_Prototype/Saved/webcache_4430/Cache/data_3
+PGfD_Prototype/Saved/webcache_4430/Cache/index
+*.log
