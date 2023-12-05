@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\anton\\desktop\\pfgdworkspace\\pgfd-vr-prototype\\pgfd_prototype\\intermediate\\build\\win64\\x64\\unrealgame\\development\\pgfd_prototype\\module.pgfd_prototype.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\anton\\desktop\\pfgdworkspace\\pgfd-vr-prototype\\pgfd_prototype\\intermediate\\build\\win64\\x64\\pgfd_prototype\\development\\core\\sharedpch.core.cpp17.h.pch",
+        "Includes": [
+            "c:\\users\\anton\\desktop\\pfgdworkspace\\pgfd-vr-prototype\\pgfd_prototype\\intermediate\\build\\win64\\x64\\unrealgame\\development\\pgfd_prototype\\definitions.pgfd_prototype.h",
+            "c:\\users\\anton\\desktop\\pfgdworkspace\\pgfd-vr-prototype\\pgfd_prototype\\intermediate\\source\\pgfd_prototype.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,8 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.PGfD_Prototype.cpp.obj": [
+			"PGfD_Prototype.cpp.obj"
+		]
+	}
+}

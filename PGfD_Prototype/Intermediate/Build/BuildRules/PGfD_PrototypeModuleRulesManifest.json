@@ -1,0 +1,10 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\Anton\\Desktop\\pfgdWorkspace\\PgFD-VR-Prototype\\PGfD_Prototype\\Intermediate\\Source\\PGfD_Prototype.Build.cs",
+		"C:\\Users\\Anton\\Desktop\\pfgdWorkspace\\PgFD-VR-Prototype\\PGfD_Prototype\\Intermediate\\Source\\PGfD_Prototype.Target.cs",
+		"C:\\Users\\Anton\\Desktop\\pfgdWorkspace\\PgFD-VR-Prototype\\PGfD_Prototype\\Intermediate\\Source\\PGfD_PrototypeClient.Target.cs",
+		"C:\\Users\\Anton\\Desktop\\pfgdWorkspace\\PgFD-VR-Prototype\\PGfD_Prototype\\Intermediate\\Source\\PGfD_PrototypeEditor.Target.cs",
+		"C:\\Users\\Anton\\Desktop\\pfgdWorkspace\\PgFD-VR-Prototype\\PGfD_Prototype\\Intermediate\\Source\\PGfD_PrototypeServer.Target.cs"
+	],
+	"EngineVersion": "5.3.2"
+}
