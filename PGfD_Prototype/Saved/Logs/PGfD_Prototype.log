@@ -2992,3 +2992,520 @@ Script Stack (0 frames) :
 [2023.12.06-02.46.59:571][548]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
 [2023.12.06-02.46.59:610][549]LogPlayLevel: Display: Destroying online subsystem :Context_35
 [2023.12.06-02.47.09:380][120]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2023.12.06-02.48.30:727][866]LogShaderCompilers: Display: ================================================
+[2023.12.06-02.48.30:727][866]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.12.06-02.48.30:727][866]LogShaderCompilers: Display: Total job queries 307, among them cache hits 50 (16.29%)
+[2023.12.06-02.48.30:727][866]LogShaderCompilers: Display: Tracking 257 distinct input hashes that result in 163 distinct outputs (63.42%)
+[2023.12.06-02.48.30:727][866]LogShaderCompilers: Display: RAM used: 10.51 MiB of 819.20 MiB budget. Usage: 1.28%
+[2023.12.06-02.48.30:727][866]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.12.06-02.48.30:727][866]LogShaderCompilers: Display: Shaders Compiled: 33
+[2023.12.06-02.48.30:727][866]LogShaderCompilers: Display: Jobs assigned 33, completed 33 (100%)
+[2023.12.06-02.48.30:727][866]LogShaderCompilers: Display: Average time worker was idle: 7.98 s
+[2023.12.06-02.48.30:727][866]LogShaderCompilers: Display: Time job spent in pending queue: average 2.48 s, longest 6.39 s
+[2023.12.06-02.48.30:727][866]LogShaderCompilers: Display: Job execution time: average 1.68 s, max 5.42 s
+[2023.12.06-02.48.30:727][866]LogShaderCompilers: Display: Job life time (pending + execution): average 4.16 s, max 6.90
+[2023.12.06-02.48.30:727][866]LogShaderCompilers: Display: Shader code size: average 55.52 KiB, min 24.047 KiB, max 90.141 KiB
+[2023.12.06-02.48.30:727][866]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 9.31 s
+[2023.12.06-02.48.30:727][866]LogShaderCompilers: Display: Jobs were issued in 33 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.12.06-02.48.30:727][866]LogShaderCompilers: Display: Average processing rate: 3.54 jobs/sec
+[2023.12.06-02.48.30:727][866]LogShaderCompilers: Display: Total thread time: 48.117 s
+[2023.12.06-02.48.30:727][866]LogShaderCompilers: Display: Total thread preprocess time: 4.992 s
+[2023.12.06-02.48.30:727][866]LogShaderCompilers: Display: Percentage time preprocessing: 10.37%
+[2023.12.06-02.48.30:727][866]LogShaderCompilers: Display: Effective parallelization: 5.17 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.12.06-02.48.30:727][866]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.12.06-02.48.30:727][866]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    1 times, average 4.79 sec, max 4.79 sec, min 4.79 sec)
+[2023.12.06-02.48.30:727][866]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    1 times, average 4.04 sec, max 4.04 sec, min 4.04 sec)
+[2023.12.06-02.48.30:727][866]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 4.01 sec, max 4.01 sec, min 4.01 sec)
+[2023.12.06-02.48.30:727][866]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    1 times, average 4.00 sec, max 4.00 sec, min 4.00 sec)
+[2023.12.06-02.48.30:727][866]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 3.99 sec, max 3.99 sec, min 3.99 sec)
+[2023.12.06-02.48.30:727][866]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.12.06-02.48.30:727][866]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 12.12% of total time (compiled    2 times, average 2.92 sec, max 3.74 sec, min 2.10 sec)
+[2023.12.06-02.48.30:727][866]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 9.95% of total time (compiled    1 times, average 4.79 sec, max 4.79 sec, min 4.79 sec)
+[2023.12.06-02.48.30:727][866]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy - 8.40% of total time (compiled    1 times, average 4.04 sec, max 4.04 sec, min 4.04 sec)
+[2023.12.06-02.48.30:727][866]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 8.32% of total time (compiled    1 times, average 4.01 sec, max 4.01 sec, min 4.01 sec)
+[2023.12.06-02.48.30:727][866]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 8.31% of total time (compiled    1 times, average 4.00 sec, max 4.00 sec, min 4.00 sec)
+[2023.12.06-02.48.30:727][866]LogShaderCompilers: Display: ================================================
+[2023.12.06-02.48.32:725][958]Cmd: TRANSACTION UNDO
+[2023.12.06-02.48.32:725][958]LogEditorTransaction: Undo Create Actors
+[2023.12.06-02.49.07:717][981]Cmd: TRANSACTION UNDO
+[2023.12.06-02.49.07:717][981]LogEditorTransaction: Undo Create Actors
+[2023.12.06-02.49.08:214][993]Cmd: TRANSACTION UNDO
+[2023.12.06-02.49.08:214][993]LogEditorTransaction: Undo Create Actors
+[2023.12.06-02.49.11:179][159]Cmd: TRANSACTION UNDO
+[2023.12.06-02.49.11:179][159]LogEditorTransaction: Undo Create Actors
+[2023.12.06-02.50.36:992][587]Cmd: TRANSACTION UNDO
+[2023.12.06-02.50.36:992][587]LogEditorTransaction: Undo Create Actors
+[2023.12.06-02.51.01:637][ 20]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.06-02.51.01:756][ 20]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2023.12.06-02.51.01:778][ 20]LogSavePackage: Moving output files for package: /Game/VR_Prototype
+[2023.12.06-02.51.01:779][ 20]LogSavePackage: Moving '../../../../../../Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Saved/VR_Prototype7D0756124FD2664B899C95BBC09CDA16.tmp' to '../../../../../../Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Content/VR_Prototype.umap'
+[2023.12.06-02.51.01:785][ 20]LogFileHelpers: All files are already saved.
+[2023.12.06-02.51.01:785][ 20]LogFileHelpers: Saving map 'VR_Prototype' took 0.076
+[2023.12.06-02.51.01:795][ 20]LogFileHelpers: InternalPromptForCheckoutAndSave took 157 ms (total: 3.04 sec)
+[2023.12.06-02.51.01:797][ 20]AssetCheck: New page: Asset Save: VR_Prototype
+[2023.12.06-02.51.01:797][ 20]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Prototype.VR_Prototype
+[2023.12.06-02.51.53:130][324]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 5.3.2-29314046+++UE5+Release-5.3
+[2023.12.06-02.51.53:180][324]LogAnalyticsSessionSummarySender: Sent summary session report for: AppId=UEEditor.Rocket.Release SessionId={F3C3DF00-4286-40FD-07C2-548A9B06C33C}
+[2023.12.06-02.53.29:891][186]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.12.06-02.53.29:899][186]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.06-02.53.29:899][186]PIE: New page: PIE session: VR_Prototype (5 Dec 2023, 16:53:29)
+[2023.12.06-02.53.29:899][186]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_VR_Prototype
+[2023.12.06-02.53.29:905][186]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005996s)
+[2023.12.06-02.53.29:905][186]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VR_Prototype.VR_Prototype to /Game/UEDPIE_0_VR_Prototype.VR_Prototype (0.006036s)
+[2023.12.06-02.53.29:923][186]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2023.12.06-02.53.29:926][186]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.06-02.53.29:926][186]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.06-02.53.29:926][186]LogAIModule: Creating AISystem for world VR_Prototype
+[2023.12.06-02.53.29:927][186]LogPlayLevel: PIE: World Init took: (0.001212s)
+[2023.12.06-02.53.29:927][186]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2023.12.06-02.53.29:927][186]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.06-02.53.29:927][186]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.06-02.53.29:927][186]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.06-02.53.29:927][186]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.06-02.53.29:927][186]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.06-02.53.29:927][186]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.06-02.53.29:927][186]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.06-02.53.29:927][186]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.06-02.53.29:929][186]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.06-02.53.29:929][186]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.06-02.53.29:929][186]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.06-02.53.29:932][186]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.06-02.53.29:947][186]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2023.12.06-02.53.29:947][186]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.06-02.53.29:947][186]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.06-02.53.29:947][186]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.06-02.53.29:948][186]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2023.12.06-02.53.29:948][186]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2023.12.06-02.53.29:950][186]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2023.12.06-02.53.29:950][186]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2023.12.06-02.53.29:950][186]LogInit: FAudioDevice initialized with ID 21.
+[2023.12.06-02.53.29:950][186]LogAudio: Display: Audio Device (ID: 21) registered with world 'VR_Prototype'.
+[2023.12.06-02.53.29:950][186]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2023.12.06-02.53.29:983][186]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.06-02.53.30:113][186]LogLoad: Game class is 'VRGameMode_C'
+[2023.12.06-02.53.30:115][186]LogWorld: Bringing World /Game/UEDPIE_0_VR_Prototype.VR_Prototype up for play (max tick rate 0) at 2023.12.05-21.53.30
+[2023.12.06-02.53.30:116][186]LogWorld: Bringing up level for play took: 0.002806
+[2023.12.06-02.53.30:121][186]LogOnline: OSS: Created online subsystem instance for: :Context_36
+[2023.12.06-02.53.30:123][186]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.12.06-02.53.30:125][186]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.12.06-02.53.30:136][186]PIE: Server logged in
+[2023.12.06-02.53.30:143][186]PIE: Play in editor total start time 0.244 seconds.
+[2023.12.06-02.53.30:153][186]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2023.12.06-02.53.41:643][913]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.06-02.53.41:643][913]LogWorld: BeginTearingDown for /Game/UEDPIE_0_VR_Prototype
+[2023.12.06-02.53.41:677][913]LogSlate: Window 'PGfD_Prototype Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6) OpenXR Oculus (1.91.0)' being destroyed
+[2023.12.06-02.53.41:682][913]LogWorld: UWorld::CleanupWorld for VR_Prototype, bSessionEnded=true, bCleanupResources=true
+[2023.12.06-02.53.41:683][913]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.06-02.53.41:687][913]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.06-02.53.41:694][913]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.06-02.53.41:717][913]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2023.12.06-02.53.41:717][913]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.12.06-02.53.41:721][913]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.12.06-02.53.41:732][913]LogSlate: Slate User Unregistered.  User Index 8
+[2023.12.06-02.53.41:732][913]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.12.06-02.53.41:737][913]LogUObjectHash: Compacting FUObjectHashTables data took   4.04ms
+[2023.12.06-02.53.41:844][914]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2023.12.06-02.53.44:854][ 87]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.12.06-02.53.44:862][ 87]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.06-02.53.44:862][ 87]PIE: New page: PIE session: VR_Prototype (5 Dec 2023, 16:53:44)
+[2023.12.06-02.53.44:863][ 87]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_VR_Prototype
+[2023.12.06-02.53.44:868][ 87]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006238s)
+[2023.12.06-02.53.44:868][ 87]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VR_Prototype.VR_Prototype to /Game/UEDPIE_0_VR_Prototype.VR_Prototype (0.006275s)
+[2023.12.06-02.53.44:889][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2023.12.06-02.53.44:892][ 87]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.06-02.53.44:892][ 87]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.06-02.53.44:893][ 87]LogAIModule: Creating AISystem for world VR_Prototype
+[2023.12.06-02.53.44:893][ 87]LogPlayLevel: PIE: World Init took: (0.001420s)
+[2023.12.06-02.53.44:893][ 87]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2023.12.06-02.53.44:893][ 87]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.06-02.53.44:893][ 87]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.06-02.53.44:893][ 87]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.06-02.53.44:893][ 87]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.06-02.53.44:893][ 87]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.06-02.53.44:893][ 87]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.06-02.53.44:893][ 87]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.06-02.53.44:893][ 87]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.06-02.53.44:894][ 87]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.06-02.53.44:894][ 87]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.06-02.53.44:894][ 87]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.06-02.53.44:896][ 87]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.06-02.53.44:915][ 87]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2023.12.06-02.53.44:915][ 87]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.06-02.53.44:915][ 87]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.06-02.53.44:915][ 87]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.06-02.53.44:916][ 87]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2023.12.06-02.53.44:916][ 87]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2023.12.06-02.53.44:918][ 87]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2023.12.06-02.53.44:918][ 87]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2023.12.06-02.53.44:918][ 87]LogInit: FAudioDevice initialized with ID 22.
+[2023.12.06-02.53.44:918][ 87]LogAudio: Display: Audio Device (ID: 22) registered with world 'VR_Prototype'.
+[2023.12.06-02.53.44:918][ 87]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2023.12.06-02.53.44:948][ 87]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.06-02.53.45:161][ 87]LogLoad: Game class is 'VRGameMode_C'
+[2023.12.06-02.53.45:164][ 87]LogWorld: Bringing World /Game/UEDPIE_0_VR_Prototype.VR_Prototype up for play (max tick rate 0) at 2023.12.05-21.53.45
+[2023.12.06-02.53.45:164][ 87]LogWorld: Bringing up level for play took: 0.002995
+[2023.12.06-02.53.45:180][ 87]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2023.12.06-02.53.45:183][ 87]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.12.06-02.53.45:184][ 87]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.12.06-02.53.45:184][ 87]vr.PixelDensity = "1"
+[2023.12.06-02.53.45:194][ 87]PIE: Server logged in
+[2023.12.06-02.53.45:203][ 87]PIE: Play in editor total start time 0.34 seconds.
+[2023.12.06-02.53.45:225][ 87]LogViewport: Scene viewport resized to 3648x1840, mode Windowed.
+[2023.12.06-02.53.45:229][ 87]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.12.06-02.54.37:163][ 46]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.06-02.54.37:163][ 46]LogWorld: BeginTearingDown for /Game/UEDPIE_0_VR_Prototype
+[2023.12.06-02.54.37:203][ 46]LogSlate: Window 'PGfD_Prototype Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6) OpenXR Oculus (1.91.0)' being destroyed
+[2023.12.06-02.54.37:208][ 46]LogWorld: UWorld::CleanupWorld for VR_Prototype, bSessionEnded=true, bCleanupResources=true
+[2023.12.06-02.54.37:208][ 46]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.06-02.54.37:212][ 46]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.06-02.54.37:218][ 46]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.06-02.54.37:238][ 46]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2023.12.06-02.54.37:238][ 46]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2023.12.06-02.54.37:243][ 46]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2023.12.06-02.54.37:251][ 46]LogSlate: Slate User Unregistered.  User Index 8
+[2023.12.06-02.54.37:251][ 46]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.12.06-02.54.37:253][ 46]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2023.12.06-02.54.37:399][ 47]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2023.12.06-02.54.56:776][191]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2023.12.06-02.56.29:958][216]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Anton/Desktop/shipnew.fbx)
+[2023.12.06-02.56.30:065][216]LogFbx: Loading FBX Scene from ../../../../../../Users/Anton/Desktop/shipnew.fbx
+[2023.12.06-02.56.30:485][216]LogFbx: FBX Scene Loaded Succesfully
+[2023.12.06-02.56.36:023][216]LogSlate: Window 'FBX Import Options' being destroyed
+[2023.12.06-02.56.36:346][216]LogFbx: Display: Triangulating static mesh pPlane2
+[2023.12.06-02.56.36:696][216]LogFbxMaterialImport: Display: Unable to find Texture file E:/Boat projet/environement/Pirate ship remastered/textile-2918844.jpg
+[2023.12.06-02.56.36:696][216]LogFbxMaterialImport: Display: Unable to find Texture file E:/Boat projet/environement/Pirate ship remastered/abstract-antique-background-172276.jpg
+[2023.12.06-02.56.36:697][216]LogFbxMaterialImport: Display: Unable to find Texture file E:/Boat projet/environement/Pirate ship remastered/abstract-backdrop-background-129733.tx
+[2023.12.06-02.56.36:699][216]LogFbxMaterialImport: Display: Unable to find Texture file E:/Boat projet/environement/Pirate ship remastered/antique-art-background-210438.jpg
+[2023.12.06-02.56.36:699][216]LogFbxMaterialImport: Display: Unable to find Texture file E:/Boat projet/environement/Pirate ship remastered/textile-2918844.tx
+[2023.12.06-02.56.36:699][216]LogFbxMaterialImport: Display: Unable to find Texture file E:/Boat projet/environement/Pirate ship remastered/textile-2918844.tx
+[2023.12.06-02.56.36:700][216]LogFbxMaterialImport: Display: Unable to find Texture file E:/Boat projet/environement/Pirate ship remastered/textile-2918844.tx
+[2023.12.06-02.56.36:707][216]LogFbxMaterialImport: Display: Unable to find Texture file E:/Boat projet/environement/Pirate ship remastered/abstract-backdrop-background-129733.tx
+[2023.12.06-02.56.36:707][216]LogFbxMaterialImport: Display: Unable to find Texture file E:/Boat projet/environement/Pirate ship remastered/antique-art-background-210438.jpg
+[2023.12.06-02.56.36:707][216]LogFbxMaterialImport: Display: Unable to find Texture file E:/Boat projet/environement/Pirate ship remastered/abstract-backdrop-background-129733.jpg
+[2023.12.06-02.56.36:708][216]LogFbxMaterialImport: Display: Unable to find Texture file E:/Boat projet/environement/Pirate ship remastered/abstract-backdrop-background-129733.jpg
+[2023.12.06-02.56.36:709][216]LogFbxMaterialImport: Display: Unable to find Texture file E:/Boat projet/environement/Pirate ship remastered/abstract-backdrop-background-129733.jpg
+[2023.12.06-02.56.36:709][216]LogFbxMaterialImport: Display: Unable to find Texture file E:/Boat projet/environement/Pirate ship remastered/textile-2918844.tx
+[2023.12.06-02.56.36:709][216]LogFbxMaterialImport: Display: Unable to find Texture file E:/Boat projet/environement/Pirate ship remastered/abstract-backdrop-background-129733.jpg
+[2023.12.06-02.56.36:709][216]LogFbxMaterialImport: Display: Unable to find Texture file E:/Boat projet/environement/Pirate ship remastered/abstract-backdrop-background-129733.jpg
+[2023.12.06-02.56.36:709][216]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/' is not a long packagename name. Reason: Input '/Game/' ends with a '/', which is invalid for LongPackageNames.
+[2023.12.06-02.56.36:714][216]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/' is not a long packagename name. Reason: Input '/Game/' ends with a '/', which is invalid for LongPackageNames.
+[2023.12.06-02.56.36:714][216]LogFbxMaterialImport: Display: Unable to find Texture file 
+[2023.12.06-02.56.36:714][216]LogFbxMaterialImport: Display: Unable to find Texture file E:/Boat projet/environement/Pirate ship remastered/textile-2918844.tx
+[2023.12.06-02.56.36:714][216]LogFbxMaterialImport: Display: Unable to find Texture file E:/Boat projet/environement/Pirate ship remastered/brown-hardwood-lumber-139306.jpg
+[2023.12.06-02.56.36:714][216]LogFbxMaterialImport: Display: Unable to find Texture file E:/Boat projet/environement/Pirate ship remastered/brown-hardwood-lumber-139306.jpg
+[2023.12.06-02.56.36:714][216]LogFbxMaterialImport: Display: Unable to find Texture file E:/Boat projet/environement/Pirate ship remastered/textile-2918844.tx
+[2023.12.06-02.56.36:714][216]LogFbxMaterialImport: Display: Unable to find Texture file E:/Boat projet/environement/Pirate ship remastered/antique-art-background-210438.tx
+[2023.12.06-02.56.36:714][216]LogFbxMaterialImport: Display: Unable to find Texture file E:/Boat projet/environement/Pirate ship remastered/abstract-backdrop-background-129733.tx
+[2023.12.06-02.56.36:715][216]LogFbxMaterialImport: Display: Unable to find Texture file E:/Boat projet/environement/Pirate ship remastered/textile-2918844.tx
+[2023.12.06-02.56.36:715][216]LogFbxMaterialImport: Display: Unable to find Texture file E:/Boat projet/environement/Pirate ship remastered/textile-2918844.tx
+[2023.12.06-02.56.36:715][216]LogFbxMaterialImport: Display: Unable to find Texture file E:/Boat projet/environement/Pirate ship remastered/textile-2918844.tx
+[2023.12.06-02.56.36:715][216]LogFbxMaterialImport: Display: Unable to find Texture file E:/Boat projet/environement/Pirate ship remastered/textile-2918844.tx
+[2023.12.06-02.56.36:716][216]LogFbxMaterialImport: Display: Unable to find Texture file E:/Boat projet/environement/Pirate ship remastered/architecture-brick-brick-texture-912124.jpg
+[2023.12.06-02.56.36:716][216]LogFbxMaterialImport: Display: Unable to find Texture file E:/Boat projet/environement/Pirate ship remastered/textile-2918844.tx
+[2023.12.06-02.56.36:716][216]LogFbx: Display: Triangulating static mesh polySurface2947
+[2023.12.06-02.56.42:361][216]LogStaticMesh: Display: Building static mesh shipnew_polySurface2947...
+[2023.12.06-02.56.44:153][216]LogStaticMesh: Built static mesh [1.79s] /Game/shipnew_polySurface2947.shipnew_polySurface2947
+[2023.12.06-02.56.44:725][216]LogStaticMesh: Warning: shipnew_polySurface2947 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2023.12.06-02.56.44:725][216]LogStaticMesh: Warning: shipnew_polySurface2947 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2023.12.06-02.56.44:725][216]LogStaticMesh: Warning: shipnew_polySurface2947 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2023.12.06-02.56.45:340][216]FBXImport: FBX File Loading: Found name clash, node 'pasted__polySurface928' was renamed to 'pasted__polySurface9281' 
+[2023.12.06-02.56.45:340][216]FBXImport: FBX File Loading: Found name clash, node 'pasted__transform1' was renamed to 'pasted__transform12' 
+[2023.12.06-02.56.45:340][216]FBXImport: FBX File Loading: Found name clash, node 'pasted__polySurface928' was renamed to 'pasted__polySurface9283' 
+[2023.12.06-02.56.45:340][216]FBXImport: FBX File Loading: Found name clash, node 'pasted__transform1' was renamed to 'pasted__transform14' 
+[2023.12.06-02.56.45:340][216]FBXImport: FBX File Loading: Found name clash, node 'polySurface254' was renamed to 'polySurface2545' 
+[2023.12.06-02.56.45:340][216]FBXImport: FBX File Loading: Found name clash, node 'pasted__transform1' was renamed to 'pasted__transform16' 
+[2023.12.06-02.56.45:340][216]FBXImport: FBX File Loading: Found name clash, node 'polySurface43' was renamed to 'polySurface437' 
+[2023.12.06-02.56.45:340][216]FBXImport: FBX File Loading: Found name clash, node 'polySurface37' was renamed to 'polySurface3710' 
+[2023.12.06-02.56.45:340][216]FBXImport: FBX File Loading: Found name clash, node 'polySurface513' was renamed to 'polySurface51311' 
+[2023.12.06-02.56.45:340][216]FBXImport: FBX File Loading: Found name clash, node 'polySurface867' was renamed to 'polySurface86712' 
+[2023.12.06-02.56.45:340][216]FBXImport: FBX File Loading: Found name clash, node 'polySurface870' was renamed to 'polySurface87013' 
+[2023.12.06-02.56.45:340][216]FBXImport: FBX File Loading: Found name clash, node 'polySurface865' was renamed to 'polySurface86514' 
+[2023.12.06-02.56.45:340][216]FBXImport: FBX File Loading: Found name clash, node 'polySurface874' was renamed to 'polySurface87415' 
+[2023.12.06-02.56.45:340][216]FBXImport: FBX File Loading: Found name clash, node 'polySurface879' was renamed to 'polySurface87916' 
+[2023.12.06-02.56.45:340][216]FBXImport: FBX File Loading: Found name clash, node 'polySurface880' was renamed to 'polySurface88017' 
+[2023.12.06-02.56.45:341][216]FBXImport: FBX File Loading: Found name clash, node 'polySurface54' was renamed to 'polySurface5418' 
+[2023.12.06-02.56.45:341][216]FBXImport: FBX File Loading: Found name clash, node 'polySurface349' was renamed to 'polySurface34919' 
+[2023.12.06-02.56.45:341][216]FBXImport: FBX File Loading: Found name clash, node 'polySurface655' was renamed to 'polySurface65520' 
+[2023.12.06-02.56.45:341][216]FBXImport: FBX File Loading: Found name clash, node 'polySurface751' was renamed to 'polySurface75121' 
+[2023.12.06-02.56.45:341][216]FBXImport: FBX File Loading: Found name clash, node 'polySurface337' was renamed to 'polySurface33722' 
+[2023.12.06-02.56.45:341][216]FBXImport: FBX File Loading: Found name clash, node 'polySurface645' was renamed to 'polySurface64523' 
+[2023.12.06-02.56.45:341][216]FBXImport: FBX File Loading: Found name clash, node 'polySurface343' was renamed to 'polySurface34324' 
+[2023.12.06-02.56.45:341][216]FBXImport: FBX File Loading: Found name clash, node 'polySurface9' was renamed to 'polySurface946' 
+[2023.12.06-02.56.45:341][216]FBXImport: FBX File Loading: Found name clash, node 'polySurface29' was renamed to 'polySurface2947' 
+[2023.12.06-02.56.45:341][216]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'textile-2918844' was renamed 'textile-2918844_ncl1_1' 
+[2023.12.06-02.56.45:341][216]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'textile-2918844' was renamed 'textile-2918844_ncl1_2' 
+[2023.12.06-02.56.45:341][216]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'textile-2918844' was renamed 'textile-2918844_ncl1_3' 
+[2023.12.06-02.56.45:341][216]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'abstract-backdrop-background-129733' was renamed 'abstract-backdrop-background-129733_ncl1_1' 
+[2023.12.06-02.56.45:341][216]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'antique-art-background-210438' was renamed 'antique-art-background-210438_ncl1_1' 
+[2023.12.06-02.56.45:341][216]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'abstract-backdrop-background-129733' was renamed 'abstract-backdrop-background-129733_ncl1_2' 
+[2023.12.06-02.56.45:341][216]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'abstract-backdrop-background-129733' was renamed 'abstract-backdrop-background-129733_ncl1_3' 
+[2023.12.06-02.56.45:346][216]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'abstract-backdrop-background-129733' was renamed 'abstract-backdrop-background-129733_ncl1_4' 
+[2023.12.06-02.56.45:346][216]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'textile-2918844' was renamed 'textile-2918844_ncl1_4' 
+[2023.12.06-02.56.45:346][216]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'abstract-backdrop-background-129733' was renamed 'abstract-backdrop-background-129733_ncl1_5' 
+[2023.12.06-02.56.45:346][216]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'abstract-backdrop-background-129733' was renamed 'abstract-backdrop-background-129733_ncl1_6' 
+[2023.12.06-02.56.45:346][216]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'textile-2918844' was renamed 'textile-2918844_ncl1_5' 
+[2023.12.06-02.56.45:346][216]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'brown-hardwood-lumber-139306' was renamed 'brown-hardwood-lumber-139306_ncl1_1' 
+[2023.12.06-02.56.45:346][216]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'textile-2918844' was renamed 'textile-2918844_ncl1_6' 
+[2023.12.06-02.56.45:346][216]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'antique-art-background-210438' was renamed 'antique-art-background-210438_ncl1_2' 
+[2023.12.06-02.56.45:346][216]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'abstract-backdrop-background-129733' was renamed 'abstract-backdrop-background-129733_ncl1_7' 
+[2023.12.06-02.56.45:346][216]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'textile-2918844' was renamed 'textile-2918844_ncl1_7' 
+[2023.12.06-02.56.45:346][216]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'textile-2918844' was renamed 'textile-2918844_ncl1_8' 
+[2023.12.06-02.56.45:346][216]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'textile-2918844' was renamed 'textile-2918844_ncl1_9' 
+[2023.12.06-02.56.45:346][216]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'textile-2918844' was renamed 'textile-2918844_ncl1_10' 
+[2023.12.06-02.56.45:346][216]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'textile-2918844' was renamed 'textile-2918844_ncl1_11' 
+[2023.12.06-02.56.45:346][216]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2023.12.06-02.56.45:346][216]FBXImport: Warning: shipnew_polySurface2947 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2023.12.06-02.56.45:346][216]FBXImport: Warning: shipnew_polySurface2947 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4) 
+[2023.12.06-02.56.45:346][216]FBXImport: Warning: shipnew_polySurface2947 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2023.12.06-02.56.49:981][471]LogSlate: Window 'Message Log' being destroyed
+[2023.12.06-02.56.49:987][471]LogSlate: Window 'Message Log' being destroyed
+[2023.12.06-02.56.56:299][845]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/shipnew_polySurface2947.shipnew_polySurface2947
+[2023.12.06-02.56.56:299][845]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/shipnew_polySurface2947.shipnew_polySurface2947
+[2023.12.06-02.56.56:299][845]LogActorFactory: Actor Factory spawned StaticMesh /Game/shipnew_polySurface2947.shipnew_polySurface2947 as actor: StaticMeshActor /Game/VR_Prototype.VR_Prototype:PersistentLevel.StaticMeshActor_13
+[2023.12.06-02.56.56:953][883]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/shipnew_polySurface2947.shipnew_polySurface2947
+[2023.12.06-02.56.56:953][883]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/shipnew_polySurface2947.shipnew_polySurface2947
+[2023.12.06-02.56.56:954][883]LogActorFactory: Actor Factory spawned StaticMesh /Game/shipnew_polySurface2947.shipnew_polySurface2947 as actor: StaticMeshActor /Game/VR_Prototype.VR_Prototype:PersistentLevel.StaticMeshActor_14
+[2023.12.06-02.56.59:130][  7]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/VR_Prototype.VR_Prototype:PersistentLevel.StaticMeshActor_14.StaticMeshComponent0, from: Addition to navoctree)
+[2023.12.06-02.56.59:147][  8]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/VR_Prototype.VR_Prototype:PersistentLevel.StaticMeshActor_14.StaticMeshComponent0, from: Remove from navoctree)
+[2023.12.06-02.57.03:083][212]Cmd: TRANSACTION UNDO
+[2023.12.06-02.57.03:083][212]LogEditorTransaction: Undo Move Elements
+[2023.12.06-02.57.03:805][239]Cmd: TRANSACTION UNDO
+[2023.12.06-02.57.03:805][239]LogEditorTransaction: Undo Scale Elements
+[2023.12.06-02.57.04:987][309]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.12.06-02.58.04:384][830]Cmd: DELETE
+[2023.12.06-02.58.04:384][830]Cmd: ACTOR DELETE
+[2023.12.06-02.58.04:399][830]LogEditorActor: Cannot delete component StaticMeshComponent /Game/VR_Prototype.VR_Prototype:PersistentLevel.StaticMeshActor_14.StaticMeshComponent0: Can't delete non-instanced components or the scene root.
+[2023.12.06-02.58.08:093][ 42]Cmd: DELETE
+[2023.12.06-02.58.08:093][ 42]Cmd: ACTOR DELETE
+[2023.12.06-02.58.08:093][ 42]LogEditorActor: Cannot delete component StaticMeshComponent /Game/VR_Prototype.VR_Prototype:PersistentLevel.StaticMeshActor_14.StaticMeshComponent0: Can't delete non-instanced components or the scene root.
+[2023.12.06-02.58.15:176][436]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2023.12.06-02.58.16:308][436]LogSlate: Window 'Delete Assets' being destroyed
+[2023.12.06-02.58.16:390][436]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2023.12.06-02.58.16:390][436]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.06-02.58.16:414][436]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/shipnew_polySurface2947.shipnew_polySurface2947
+	Asset Type: StaticMesh
+[2023.12.06-02.58.18:171][436]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2023.12.06-02.58.18:188][436]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2023.12.06-02.58.18:207][436]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2023.12.06-02.58.47:348][ 24]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.12.06-02.58.48:274][ 79]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.12.06-02.58.51:715][284]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.12.06-02.58.52:955][358]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.12.06-02.58.57:584][635]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.12.06-02.58.58:555][693]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.12.06-02.59.00:849][830]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.12.06-02.59.01:791][886]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.12.06-02.59.05:296][ 96]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.12.06-02.59.06:500][168]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.12.06-02.59.07:654][237]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.12.06-02.59.08:977][316]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.12.06-02.59.09:880][370]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2023.12.06-02.59.15:440][703]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.06-02.59.15:540][703]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2023.12.06-02.59.15:563][703]LogSavePackage: Moving output files for package: /Game/VR_Prototype
+[2023.12.06-02.59.15:563][703]LogSavePackage: Moving '../../../../../../Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Saved/VR_Prototype9880946C4CBA4FB29FE5648F5C6109A9.tmp' to '../../../../../../Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Content/VR_Prototype.umap'
+[2023.12.06-02.59.15:574][703]LogFileHelpers: All files are already saved.
+[2023.12.06-02.59.15:574][703]LogFileHelpers: Saving map 'VR_Prototype' took 0.067
+[2023.12.06-02.59.15:582][703]LogFileHelpers: InternalPromptForCheckoutAndSave took 141 ms (total: 3.19 sec)
+[2023.12.06-02.59.15:584][703]AssetCheck: New page: Asset Save: VR_Prototype
+[2023.12.06-02.59.15:584][703]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Prototype.VR_Prototype
+[2023.12.06-02.59.16:908][776]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2023.12.06-02.59.16:913][776]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.06-02.59.17:034][776]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/shipnew_pPlane2" FILE="../../../../../../Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Content/shipnew_pPlane2.uasset" SILENT=true
+[2023.12.06-02.59.17:047][776]LogSavePackage: Moving output files for package: /Game/shipnew_pPlane2
+[2023.12.06-02.59.17:047][776]LogSavePackage: Moving '../../../../../../Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Saved/shipnew_pPlane21B85FC244EA4303FEA964B96364393C9.tmp' to '../../../../../../Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Content/shipnew_pPlane2.uasset'
+[2023.12.06-02.59.17:067][776]LogFileHelpers: InternalPromptForCheckoutAndSave took 154 ms (total: 3.34 sec)
+[2023.12.06-02.59.17:069][776]AssetCheck: New page: Asset Save: shipnew_pPlane2
+[2023.12.06-02.59.17:069][776]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/shipnew_pPlane2.shipnew_pPlane2
+[2023.12.06-02.59.19:890][943]LogDerivedDataCache: C:/Users/Anton/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:51.295 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 25919 files in 28009 folders with total size 810 MiB.
+[2023.12.06-02.59.45:536][482]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.12.06-02.59.45:543][482]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.06-02.59.45:543][482]PIE: New page: PIE session: VR_Prototype (5 Dec 2023, 16:59:45)
+[2023.12.06-02.59.45:543][482]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_VR_Prototype
+[2023.12.06-02.59.45:548][482]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004597s)
+[2023.12.06-02.59.45:548][482]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VR_Prototype.VR_Prototype to /Game/UEDPIE_0_VR_Prototype.VR_Prototype (0.004631s)
+[2023.12.06-02.59.45:561][482]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2023.12.06-02.59.45:563][482]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.06-02.59.45:564][482]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.06-02.59.45:564][482]LogAIModule: Creating AISystem for world VR_Prototype
+[2023.12.06-02.59.45:564][482]LogPlayLevel: PIE: World Init took: (0.000992s)
+[2023.12.06-02.59.45:564][482]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2023.12.06-02.59.45:564][482]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.06-02.59.45:564][482]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.06-02.59.45:564][482]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.06-02.59.45:564][482]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.06-02.59.45:564][482]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.06-02.59.45:565][482]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.06-02.59.45:565][482]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.06-02.59.45:565][482]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.06-02.59.45:565][482]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.06-02.59.45:565][482]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.06-02.59.45:565][482]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.06-02.59.45:568][482]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.06-02.59.45:583][482]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2023.12.06-02.59.45:583][482]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.06-02.59.45:583][482]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.06-02.59.45:583][482]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.06-02.59.45:583][482]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2023.12.06-02.59.45:583][482]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2023.12.06-02.59.45:586][482]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2023.12.06-02.59.45:586][482]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2023.12.06-02.59.45:586][482]LogInit: FAudioDevice initialized with ID 23.
+[2023.12.06-02.59.45:586][482]LogAudio: Display: Audio Device (ID: 23) registered with world 'VR_Prototype'.
+[2023.12.06-02.59.45:586][482]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 23
+[2023.12.06-02.59.45:612][482]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.06-02.59.45:736][482]LogLoad: Game class is 'VRGameMode_C'
+[2023.12.06-02.59.45:743][482]LogWorld: Bringing World /Game/UEDPIE_0_VR_Prototype.VR_Prototype up for play (max tick rate 0) at 2023.12.05-21.59.45
+[2023.12.06-02.59.45:743][482]LogWorld: Bringing up level for play took: 0.007087
+[2023.12.06-02.59.45:746][482]LogOnline: OSS: Created online subsystem instance for: :Context_38
+[2023.12.06-02.59.45:750][482]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.12.06-02.59.45:752][482]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.12.06-02.59.45:763][482]PIE: Server logged in
+[2023.12.06-02.59.45:773][482]PIE: Play in editor total start time 0.231 seconds.
+[2023.12.06-02.59.45:783][482]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2023.12.06-02.59.54:054][ 40]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.06-02.59.54:054][ 40]LogWorld: BeginTearingDown for /Game/UEDPIE_0_VR_Prototype
+[2023.12.06-02.59.54:088][ 40]LogSlate: Window 'PGfD_Prototype Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6) OpenXR Oculus (1.91.0)' being destroyed
+[2023.12.06-02.59.54:094][ 40]LogWorld: UWorld::CleanupWorld for VR_Prototype, bSessionEnded=true, bCleanupResources=true
+[2023.12.06-02.59.54:094][ 40]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.06-02.59.54:097][ 40]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.06-02.59.54:103][ 40]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.06-02.59.54:123][ 40]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 23
+[2023.12.06-02.59.54:123][ 40]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2023.12.06-02.59.54:125][ 40]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2023.12.06-02.59.54:134][ 40]LogSlate: Slate User Unregistered.  User Index 8
+[2023.12.06-02.59.54:134][ 40]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.12.06-02.59.54:136][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2023.12.06-02.59.54:205][ 41]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2023.12.06-03.00.31:595][281]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.12.06-03.00.31:601][281]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.06-03.00.31:601][281]PIE: New page: PIE session: VR_Prototype (5 Dec 2023, 17:00:31)
+[2023.12.06-03.00.31:601][281]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_VR_Prototype
+[2023.12.06-03.00.31:606][281]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005261s)
+[2023.12.06-03.00.31:606][281]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VR_Prototype.VR_Prototype to /Game/UEDPIE_0_VR_Prototype.VR_Prototype (0.005300s)
+[2023.12.06-03.00.31:626][281]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2023.12.06-03.00.31:627][281]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.06-03.00.31:627][281]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.06-03.00.31:628][281]LogAIModule: Creating AISystem for world VR_Prototype
+[2023.12.06-03.00.31:628][281]LogPlayLevel: PIE: World Init took: (0.001113s)
+[2023.12.06-03.00.31:628][281]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2023.12.06-03.00.31:628][281]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.06-03.00.31:628][281]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.06-03.00.31:628][281]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.06-03.00.31:628][281]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.06-03.00.31:628][281]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.06-03.00.31:628][281]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.06-03.00.31:628][281]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.06-03.00.31:628][281]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.06-03.00.31:629][281]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.06-03.00.31:629][281]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.06-03.00.31:629][281]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.06-03.00.31:632][281]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.06-03.00.31:648][281]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2023.12.06-03.00.31:648][281]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.06-03.00.31:649][281]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.06-03.00.31:649][281]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.06-03.00.31:649][281]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2023.12.06-03.00.31:649][281]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=24
+[2023.12.06-03.00.31:651][281]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2023.12.06-03.00.31:651][281]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2023.12.06-03.00.31:651][281]LogInit: FAudioDevice initialized with ID 24.
+[2023.12.06-03.00.31:651][281]LogAudio: Display: Audio Device (ID: 24) registered with world 'VR_Prototype'.
+[2023.12.06-03.00.31:652][281]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 24
+[2023.12.06-03.00.31:682][281]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.06-03.00.31:800][281]LogLoad: Game class is 'VRGameMode_C'
+[2023.12.06-03.00.31:804][281]LogWorld: Bringing World /Game/UEDPIE_0_VR_Prototype.VR_Prototype up for play (max tick rate 0) at 2023.12.05-22.00.31
+[2023.12.06-03.00.31:805][281]LogWorld: Bringing up level for play took: 0.004555
+[2023.12.06-03.00.31:810][281]LogOnline: OSS: Created online subsystem instance for: :Context_39
+[2023.12.06-03.00.31:812][281]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.12.06-03.00.31:813][281]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.12.06-03.00.31:826][281]PIE: Server logged in
+[2023.12.06-03.00.31:839][281]PIE: Play in editor total start time 0.238 seconds.
+[2023.12.06-03.00.31:853][281]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2023.12.06-03.00.43:466][826]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.12.06-03.00.47:473][381]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.06-03.00.47:473][381]LogWorld: BeginTearingDown for /Game/UEDPIE_0_VR_Prototype
+[2023.12.06-03.00.47:505][381]LogSlate: Window 'PGfD_Prototype Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6) OpenXR Oculus (1.91.0)' being destroyed
+[2023.12.06-03.00.47:513][381]LogWorld: UWorld::CleanupWorld for VR_Prototype, bSessionEnded=true, bCleanupResources=true
+[2023.12.06-03.00.47:514][381]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.06-03.00.47:518][381]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.06-03.00.47:524][381]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.06-03.00.47:547][381]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 24
+[2023.12.06-03.00.47:548][381]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2023.12.06-03.00.47:552][381]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2023.12.06-03.00.47:561][381]LogSlate: Slate User Unregistered.  User Index 8
+[2023.12.06-03.00.47:561][381]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.12.06-03.00.47:563][381]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2023.12.06-03.00.47:636][382]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2023.12.06-03.01.02:348][261]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.12.06-03.01.02:353][261]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.06-03.01.02:353][261]PIE: New page: PIE session: VR_Prototype (5 Dec 2023, 17:01:02)
+[2023.12.06-03.01.02:393][261]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_VR_Prototype
+[2023.12.06-03.01.02:397][261]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004434s)
+[2023.12.06-03.01.02:397][261]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VR_Prototype.VR_Prototype to /Game/UEDPIE_0_VR_Prototype.VR_Prototype (0.004472s)
+[2023.12.06-03.01.02:413][261]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2023.12.06-03.01.02:415][261]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.06-03.01.02:415][261]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.06-03.01.02:416][261]LogAIModule: Creating AISystem for world VR_Prototype
+[2023.12.06-03.01.02:417][261]LogPlayLevel: PIE: World Init took: (0.001528s)
+[2023.12.06-03.01.02:417][261]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2023.12.06-03.01.02:417][261]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.06-03.01.02:417][261]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.06-03.01.02:417][261]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.06-03.01.02:417][261]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.06-03.01.02:417][261]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.06-03.01.02:417][261]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.06-03.01.02:417][261]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.06-03.01.02:417][261]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.06-03.01.02:418][261]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.06-03.01.02:418][261]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.06-03.01.02:418][261]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.06-03.01.02:421][261]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.06-03.01.02:437][261]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2023.12.06-03.01.02:437][261]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.06-03.01.02:437][261]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.06-03.01.02:437][261]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.06-03.01.02:437][261]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2023.12.06-03.01.02:437][261]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=25
+[2023.12.06-03.01.02:440][261]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2023.12.06-03.01.02:440][261]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2023.12.06-03.01.02:440][261]LogInit: FAudioDevice initialized with ID 25.
+[2023.12.06-03.01.02:440][261]LogAudio: Display: Audio Device (ID: 25) registered with world 'VR_Prototype'.
+[2023.12.06-03.01.02:440][261]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 25
+[2023.12.06-03.01.02:469][261]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.06-03.01.02:692][261]LogLoad: Game class is 'VRGameMode_C'
+[2023.12.06-03.01.02:694][261]LogWorld: Bringing World /Game/UEDPIE_0_VR_Prototype.VR_Prototype up for play (max tick rate 0) at 2023.12.05-22.01.02
+[2023.12.06-03.01.02:695][261]LogWorld: Bringing up level for play took: 0.002657
+[2023.12.06-03.01.02:700][261]LogOnline: OSS: Created online subsystem instance for: :Context_40
+[2023.12.06-03.01.02:703][261]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.12.06-03.01.02:705][261]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.12.06-03.01.02:706][261]vr.PixelDensity = "1"
+[2023.12.06-03.01.02:717][261]PIE: Server logged in
+[2023.12.06-03.01.02:728][261]PIE: Play in editor total start time 0.374 seconds.
+[2023.12.06-03.01.02:757][261]LogViewport: Scene viewport resized to 3648x1840, mode Windowed.
+[2023.12.06-03.01.02:763][261]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.12.06-03.02.22:373][253]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.06-03.02.22:373][253]LogWorld: BeginTearingDown for /Game/UEDPIE_0_VR_Prototype
+[2023.12.06-03.02.22:447][253]LogSlate: Window 'PGfD_Prototype Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6) OpenXR Oculus (1.91.0)' being destroyed
+[2023.12.06-03.02.22:453][253]LogWorld: UWorld::CleanupWorld for VR_Prototype, bSessionEnded=true, bCleanupResources=true
+[2023.12.06-03.02.22:454][253]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.06-03.02.22:458][253]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.06-03.02.22:465][253]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.06-03.02.22:489][253]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 25
+[2023.12.06-03.02.22:489][253]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2023.12.06-03.02.22:491][253]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2023.12.06-03.02.22:499][253]LogSlate: Slate User Unregistered.  User Index 8
+[2023.12.06-03.02.22:499][253]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.12.06-03.02.22:504][253]LogUObjectHash: Compacting FUObjectHashTables data took   4.10ms
+[2023.12.06-03.02.22:636][254]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2023.12.06-03.02.43:682][515]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.06-03.02.43:776][515]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2023.12.06-03.02.43:795][515]LogSavePackage: Moving output files for package: /Game/VR_Prototype
+[2023.12.06-03.02.43:795][515]LogSavePackage: Moving '../../../../../../Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Saved/VR_PrototypeD0F8C3B441EC7D0DD76EE7A70A5FC5F1.tmp' to '../../../../../../Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Content/VR_Prototype.umap'
+[2023.12.06-03.02.43:802][515]LogFileHelpers: All files are already saved.
+[2023.12.06-03.02.43:802][515]LogFileHelpers: Saving map 'VR_Prototype' took 0.061
+[2023.12.06-03.02.43:811][515]LogFileHelpers: InternalPromptForCheckoutAndSave took 130 ms (total: 3.47 sec)
+[2023.12.06-03.02.43:814][515]AssetCheck: New page: Asset Save: VR_Prototype
+[2023.12.06-03.02.43:814][515]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Prototype.VR_Prototype
+[2023.12.06-03.04.06:835][ 32]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
