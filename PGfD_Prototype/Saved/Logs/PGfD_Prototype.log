@@ -6295,3 +6295,235 @@ BndEvt__VR_Prototype_TriggerBox_0_K2Node_ActorBoundEvent_0_ActorBeginOverlapSign
 [2023.12.10-18.08.23:837][774]LogFileHelpers: InternalPromptForCheckoutAndSave took 162 ms (total: 7.31 sec)
 [2023.12.10-18.08.23:840][774]AssetCheck: New page: Asset Save: VR_Prototype
 [2023.12.10-18.08.23:840][774]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Prototype.VR_Prototype
+[2023.12.10-18.16.47:762][422]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.12.10-18.16.47:770][422]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.10-18.16.47:770][422]PIE: New page: PIE session: VR_Prototype (10 Dec 2023, 08:16:47)
+[2023.12.10-18.16.47:770][422]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_VR_Prototype
+[2023.12.10-18.16.47:794][422]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022714s)
+[2023.12.10-18.16.47:794][422]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VR_Prototype.VR_Prototype to /Game/UEDPIE_0_VR_Prototype.VR_Prototype (0.022778s)
+[2023.12.10-18.16.47:814][422]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2023.12.10-18.16.47:818][422]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.10-18.16.47:818][422]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.10-18.16.47:818][422]LogAIModule: Creating AISystem for world VR_Prototype
+[2023.12.10-18.16.47:819][422]LogPlayLevel: PIE: World Init took: (0.001344s)
+[2023.12.10-18.16.47:819][422]LogAudio: Display: Creating Audio Device:                 Id: 51, Scope: Unique, Realtime: True
+[2023.12.10-18.16.47:819][422]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.10-18.16.47:819][422]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.10-18.16.47:819][422]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.10-18.16.47:819][422]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.10-18.16.47:819][422]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.10-18.16.47:819][422]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.10-18.16.47:819][422]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.10-18.16.47:819][422]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.10-18.16.47:820][422]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.10-18.16.47:820][422]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.10-18.16.47:820][422]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.10-18.16.47:823][422]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.10-18.16.47:972][422]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.12.10-18.16.47:973][422]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.10-18.16.47:973][422]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.10-18.16.47:973][422]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.10-18.16.47:974][422]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=51
+[2023.12.10-18.16.47:974][422]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=51
+[2023.12.10-18.16.47:977][422]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=51
+[2023.12.10-18.16.47:977][422]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=51
+[2023.12.10-18.16.47:977][422]LogInit: FAudioDevice initialized with ID 51.
+[2023.12.10-18.16.47:977][422]LogAudio: Display: Audio Device (ID: 51) registered with world 'VR_Prototype'.
+[2023.12.10-18.16.47:977][422]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 51
+[2023.12.10-18.16.48:007][422]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.10-18.16.48:219][422]LogLoad: Game class is 'VRGameMode_C'
+[2023.12.10-18.16.48:225][422]LogWorld: Bringing World /Game/UEDPIE_0_VR_Prototype.VR_Prototype up for play (max tick rate 0) at 2023.12.10-13.16.48
+[2023.12.10-18.16.48:225][422]LogWorld: Bringing up level for play took: 0.006042
+[2023.12.10-18.16.48:229][422]LogOnline: OSS: Created online subsystem instance for: :Context_72
+[2023.12.10-18.16.48:231][422]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.12.10-18.16.48:233][422]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.12.10-18.16.48:234][422]vr.PixelDensity = "1"
+[2023.12.10-18.16.48:243][422]PIE: Server logged in
+[2023.12.10-18.16.48:247][422]PIE: Play in editor total start time 0.476 seconds.
+[2023.12.10-18.16.48:261][422]LogViewport: Scene viewport resized to 3648x1840, mode Windowed.
+[2023.12.10-18.16.48:264][422]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.12.10-18.17.14:748][288]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.10-18.17.14:748][288]LogWorld: BeginTearingDown for /Game/UEDPIE_0_VR_Prototype
+[2023.12.10-18.17.14:795][288]LogSlate: Window 'PGfD_Prototype Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6) OpenXR Oculus (1.91.0)' being destroyed
+[2023.12.10-18.17.14:800][288]LogWorld: UWorld::CleanupWorld for VR_Prototype, bSessionEnded=true, bCleanupResources=true
+[2023.12.10-18.17.14:800][288]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.10-18.17.14:806][288]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.10-18.17.14:812][288]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.10-18.17.14:837][288]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 51
+[2023.12.10-18.17.14:837][288]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=51
+[2023.12.10-18.17.14:840][288]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=51
+[2023.12.10-18.17.14:852][288]LogSlate: Slate User Unregistered.  User Index 8
+[2023.12.10-18.17.14:852][288]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.12.10-18.17.14:857][288]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2023.12.10-18.17.15:031][289]LogPlayLevel: Display: Destroying online subsystem :Context_72
+[2023.12.10-18.18.17:296][895]LogDirectoryWatcher: Display: A directory notification failed for 'C:/Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Saved/Collections/' because it could not be accessed. Aborting watch request...
+[2023.12.10-18.18.17:296][895]LogDirectoryWatcher: Display: A directory notification failed for 'C:/Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Content/Collections/' because it could not be accessed. Aborting watch request...
+[2023.12.10-18.18.17:296][895]LogDirectoryWatcher: Display: A directory notification failed for 'C:/Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Content/Developers/Anton/Collections/' because it could not be accessed. Aborting watch request...
+[2023.12.10-18.18.30:650][426]LogTexture: Display: Building textures: /Game/GoodSky/Resource/ArrowTool/T_GoodSky_SkyRing.T_GoodSky_SkyRing (TFO_AutoDXT, 256x256 x1x1x1) (Required Memory Estimate: 10.395709 MB), EncodeSpeed: Fast
+[2023.12.10-18.18.30:841][426]LogTexture: Display: Building textures: /Game/GoodSky/Resource/Textures/T_GoodSky_clouds_A.T_GoodSky_clouds_A (TFO_AutoDXT, 2048x512 x1x1x1) (Required Memory Estimate: 101.645823 MB), EncodeSpeed: Fast
+[2023.12.10-18.18.30:866][426]LogTexture: Display: Building textures: /Game/GoodSky/Resource/Textures/T_GoodSky_clouds_B.T_GoodSky_clouds_B (TFO_AutoDXT, 2048x512 x1x1x1) (Required Memory Estimate: 101.645823 MB), EncodeSpeed: Fast
+[2023.12.10-18.18.30:907][426]LogTexture: Display: Building textures: /Game/GoodSky/Resource/Textures/T_GoodSky_clouds_F.T_GoodSky_clouds_F (TFO_AutoDXT, 2048x512 x1x1x1) (Required Memory Estimate: 101.645823 MB), EncodeSpeed: Fast
+[2023.12.10-18.18.30:960][426]LogTexture: Display: Building textures: /Game/GoodSky/Resource/Textures/T_GoodSky_Moon.T_GoodSky_Moon (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 45.145823 MB), EncodeSpeed: Fast
+[2023.12.10-18.18.31:041][426]LogStaticMesh: Display: Building static mesh SM_GoodSky_StarMesh...
+[2023.12.10-18.18.31:058][426]LogTexture: Display: Building textures: /Game/GoodSky/Resource/Textures/T_GoodSky_clouds_sphere.T_GoodSky_clouds_sphere (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2023.12.10-18.18.31:062][426]LogStaticMesh: Display: Building static mesh SM_GoodSky_Moon...
+[2023.12.10-18.18.31:106][426]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.10-18.18.31:143][426]LogStaticMesh: Built static mesh [0.17s] /Game/GoodSky/Resource/ArrowTool/SM_GoodSky_StarMesh.SM_GoodSky_StarMesh
+[2023.12.10-18.18.31:143][426]LogStaticMesh: Built static mesh [0.17s] /Game/GoodSky/Resource/ArrowTool/SM_GoodSky_Moon.SM_GoodSky_Moon
+[2023.12.10-18.18.31:147][426]LogStaticMesh: Display: Building static mesh SM_GoodSky_Hemisphere...
+[2023.12.10-18.18.31:219][426]LogActorFactory: Actor Factory attempting to spawn World /Game/GoodSky/Maps/Level_GoodSky_Showcase.Level_GoodSky_Showcase
+[2023.12.10-18.18.31:219][426]LogActorFactory: Actor Factory attempting to spawn World /Game/GoodSky/Maps/Level_GoodSky_Showcase.Level_GoodSky_Showcase
+[2023.12.10-18.18.31:230][426]LogStaticMesh: Display: Building static mesh SM_GoodSky_Sphere...
+[2023.12.10-18.18.31:257][426]LogStaticMesh: Built static mesh [0.19s] /Game/GoodSky/Resource/Mesh/SM_GoodSky_Hemisphere.SM_GoodSky_Hemisphere
+[2023.12.10-18.18.31:273][426]LogTexture: Display: Building textures: /Game/GoodSky/Resource/Textures/T_GoodSky_noise_smooth.T_GoodSky_noise_smooth (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 45.145823 MB), EncodeSpeed: Fast
+[2023.12.10-18.18.31:280][426]LogTexture: Display: Building textures: /Game/GoodSky/Resource/Textures/T_GoodSky_Lightning.T_GoodSky_Lightning (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 101.645823 MB), EncodeSpeed: Fast
+[2023.12.10-18.18.31:410][426]LogTexture: Display: Building textures: /Game/GoodSky/Resource/Textures/T_GoodSky_clouds_D.T_GoodSky_clouds_D (TFO_AutoDXT, 2048x512 x1x1x1) (Required Memory Estimate: 101.645823 MB), EncodeSpeed: Fast
+[2023.12.10-18.18.31:417][426]LogTexture: Display: Building textures: /Game/GoodSky/Resource/Textures/T_GoodSky_clouds_C.T_GoodSky_clouds_C (TFO_AutoDXT, 2048x512 x1x1x1) (Required Memory Estimate: 101.645823 MB), EncodeSpeed: Fast
+[2023.12.10-18.18.31:430][426]LogStaticMesh: Built static mesh [0.27s] /Game/GoodSky/Resource/Mesh/SM_GoodSky_Sphere.SM_GoodSky_Sphere
+[2023.12.10-18.18.31:468][426]LogTexture: Display: Building textures: /Game/GoodSky/Resource/Textures/T_GoodSky_clouds_E.T_GoodSky_clouds_E (TFO_AutoDXT, 2048x512 x1x1x1) (Required Memory Estimate: 101.645823 MB), EncodeSpeed: Fast
+[2023.12.10-18.18.31:490][426]LogStreaming: Display: ULevelStreaming::RequestLevel(/Temp/Game/GoodSky/Maps/Level_GoodSky_Showcase_LevelInstance_b5e08c1a6c7dc998_0) is flushing async loading
+[2023.12.10-18.18.31:490][426]LogStreaming: Display: FlushAsyncLoading(): 1 QueuedPackages, 0 AsyncPackages
+[2023.12.10-18.18.31:583][426]LogLevelInstance: Loaded 1 levels in 0.119 seconds
+[2023.12.10-18.18.32:068][428]LogShaderCompilers: Display: ================================================
+[2023.12.10-18.18.32:068][428]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.12.10-18.18.32:068][428]LogShaderCompilers: Display: Total job queries 501, among them cache hits 96 (19.16%)
+[2023.12.10-18.18.32:068][428]LogShaderCompilers: Display: Tracking 389 distinct input hashes that result in 244 distinct outputs (62.72%)
+[2023.12.10-18.18.32:068][428]LogShaderCompilers: Display: RAM used: 15.69 MiB of 819.20 MiB budget. Usage: 1.92%
+[2023.12.10-18.18.32:068][428]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.12.10-18.18.32:068][428]LogShaderCompilers: Display: Shaders Compiled: 119
+[2023.12.10-18.18.32:068][428]LogShaderCompilers: Display: Jobs assigned 127, completed 119 (93.70%)
+[2023.12.10-18.18.32:068][428]LogShaderCompilers: Display: Average time worker was idle: 27158.20 s
+[2023.12.10-18.18.32:068][428]LogShaderCompilers: Display: Time job spent in pending queue: average 0.70 s, longest 6.39 s
+[2023.12.10-18.18.32:068][428]LogShaderCompilers: Display: Job execution time: average 1.47 s, max 5.42 s
+[2023.12.10-18.18.32:068][428]LogShaderCompilers: Display: Job life time (pending + execution): average 2.21 s, max 6.90
+[2023.12.10-18.18.32:068][428]LogShaderCompilers: Display: Shader code size: average 69.096 KiB, min 3.711 KiB, max 99.621 KiB
+[2023.12.10-18.18.32:068][428]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 79.11 s
+[2023.12.10-18.18.32:068][428]LogShaderCompilers: Display: Jobs were issued in 127 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.12.10-18.18.32:068][428]LogShaderCompilers: Display: Average processing rate: 1.50 jobs/sec
+[2023.12.10-18.18.32:068][428]LogShaderCompilers: Display: Total thread time: 151.026 s
+[2023.12.10-18.18.32:068][428]LogShaderCompilers: Display: Total thread preprocess time: 11.3 s
+[2023.12.10-18.18.32:068][428]LogShaderCompilers: Display: Percentage time preprocessing: 7.48%
+[2023.12.10-18.18.32:068][428]LogShaderCompilers: Display: Effective parallelization: 1.91 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.12.10-18.18.32:068][428]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.12.10-18.18.32:068][428]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    1 times, average 4.04 sec, max 4.04 sec, min 4.04 sec)
+[2023.12.10-18.18.32:068][428]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 4.01 sec, max 4.01 sec, min 4.01 sec)
+[2023.12.10-18.18.32:068][428]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    1 times, average 4.00 sec, max 4.00 sec, min 4.00 sec)
+[2023.12.10-18.18.32:068][428]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    1 times, average 3.96 sec, max 3.96 sec, min 3.96 sec)
+[2023.12.10-18.18.32:068][428]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    1 times, average 3.88 sec, max 3.88 sec, min 3.88 sec)
+[2023.12.10-18.18.32:068][428]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.12.10-18.18.32:068][428]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 54.78% of total time (compiled   37 times, average 2.24 sec, max 3.74 sec, min 0.72 sec)
+[2023.12.10-18.18.32:068][428]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 12.76% of total time (compiled   40 times, average 0.48 sec, max 1.01 sec, min 0.36 sec)
+[2023.12.10-18.18.32:068][428]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 4.83% of total time (compiled    2 times, average 3.65 sec, max 4.79 sec, min 2.50 sec)
+[2023.12.10-18.18.32:069][428]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 3.43% of total time (compiled    4 times, average 1.29 sec, max 3.99 sec, min 0.33 sec)
+[2023.12.10-18.18.32:069][428]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy - 2.68% of total time (compiled    1 times, average 4.04 sec, max 4.04 sec, min 4.04 sec)
+[2023.12.10-18.18.32:069][428]LogShaderCompilers: Display: ================================================
+[2023.12.10-18.18.34:417][560]LogMeshUtilities: Finished distance field build in 2.7s - 126x126x126 sparse distance field, 1.7Mb total, 0.1Mb always loaded, 46% occupied, 520 triangles, SM_GoodSky_Hemisphere
+[2023.12.10-18.18.37:217][726]LogShaderCompilers: Display: FShaderCompileThreadRunnable::WriteNewTasks() took too long (2.242 seconds, threshold is 0.300 s), will parallelize next time.
+[2023.12.10-18.18.37:561][733]LogMeshUtilities: Finished distance field build in 3.1s - 126x126x126 sparse distance field, 1.9Mb total, 0.1Mb always loaded, 52% occupied, 1040 triangles, SM_GoodSky_Sphere
+[2023.12.10-18.18.52:280][531]Cmd: DELETE
+[2023.12.10-18.18.52:280][531]Cmd: ACTOR DELETE
+[2023.12.10-18.18.52:291][531]LogEditorActor: Deleted Actor: LevelInstance
+[2023.12.10-18.18.52:303][531]LogWorld: UWorld::CleanupWorld for Level_GoodSky_Showcase, bSessionEnded=true, bCleanupResources=true
+[2023.12.10-18.18.52:303][531]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.10-18.18.52:347][531]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2023.12.10-18.18.52:365][531]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2023.12.10-18.18.52:368][531]MapCheck: New page: Map Check
+[2023.12.10-18.18.52:368][531]LightingResults: New page: Lighting Build
+[2023.12.10-18.18.52:395][531]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2023.12.10-18.18.52:395][531]LogLevelInstance: Unloaded 1 levels in 0.104 seconds
+[2023.12.10-18.18.52:412][531]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2023.12.10-18.18.52:414][531]LogEditorActor: Deleted 1 Actors (0.127 secs)
+[2023.12.10-18.18.55:930][740]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.10-18.18.57:620][834]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/GoodSky/Blueprint/BP_GoodSky.BP_GoodSky_C
+[2023.12.10-18.18.57:620][834]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/GoodSky/Blueprint/BP_GoodSky.BP_GoodSky_C
+[2023.12.10-18.18.57:626][834]LogActorFactory: Actor Factory spawned Blueprint /Game/GoodSky/Blueprint/BP_GoodSky.BP_GoodSky as actor: BP_GoodSky_C /Game/VR_Prototype.VR_Prototype:PersistentLevel.BP_GoodSky_C_0
+[2023.12.10-18.18.57:631][834]LogActorFactory: Actor Factory spawned Blueprint /Game/GoodSky/Blueprint/BP_GoodSky.BP_GoodSky as actor: BP_GoodSky_C /Game/VR_Prototype.VR_Prototype:PersistentLevel.BP_GoodSky_C_0
+[2023.12.10-18.18.57:932][841]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/GoodSky/Blueprint/BP_GoodSky.BP_GoodSky_C
+[2023.12.10-18.18.57:932][841]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/GoodSky/Blueprint/BP_GoodSky.BP_GoodSky_C
+[2023.12.10-18.18.57:950][841]LogActorFactory: Actor Factory spawned Blueprint /Game/GoodSky/Blueprint/BP_GoodSky.BP_GoodSky as actor: BP_GoodSky_C /Game/VR_Prototype.VR_Prototype:PersistentLevel.BP_GoodSky_C_1
+[2023.12.10-18.18.57:955][841]LogActorFactory: Actor Factory spawned Blueprint /Game/GoodSky/Blueprint/BP_GoodSky.BP_GoodSky as actor: BP_GoodSky_C /Game/VR_Prototype.VR_Prototype:PersistentLevel.BP_GoodSky_C_1
+[2023.12.10-18.18.58:082][841]LogSlate: Took 0.030396 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2023.12.10-18.19.01:857][ 64]Cmd: DELETE
+[2023.12.10-18.19.01:857][ 64]Cmd: ACTOR DELETE
+[2023.12.10-18.19.01:863][ 64]LogEditorActor: Deleted Actor: BP_GoodSky_C
+[2023.12.10-18.19.01:890][ 64]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2023.12.10-18.19.01:893][ 64]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2023.12.10-18.19.37:037][135]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.10-18.19.37:146][135]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2023.12.10-18.19.37:172][135]LogSavePackage: Moving output files for package: /Game/VR_Prototype
+[2023.12.10-18.19.37:173][135]LogSavePackage: Moving '../../../../../../Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Saved/VR_PrototypeCCC625F445FAC1B8AAD00D99A3F47BF4.tmp' to '../../../../../../Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Content/VR_Prototype.umap'
+[2023.12.10-18.19.37:180][135]LogFileHelpers: All files are already saved.
+[2023.12.10-18.19.37:180][135]LogFileHelpers: Saving map 'VR_Prototype' took 0.071
+[2023.12.10-18.19.37:190][135]LogFileHelpers: InternalPromptForCheckoutAndSave took 154 ms (total: 7.47 sec)
+[2023.12.10-18.19.37:192][135]AssetCheck: New page: Asset Save: VR_Prototype
+[2023.12.10-18.19.37:192][135]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Prototype.VR_Prototype
+[2023.12.10-18.19.42:096][427]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.12.10-18.19.42:103][427]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.10-18.19.42:104][427]PIE: New page: PIE session: VR_Prototype (10 Dec 2023, 08:19:42)
+[2023.12.10-18.19.42:104][427]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_VR_Prototype
+[2023.12.10-18.19.42:129][427]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024900s)
+[2023.12.10-18.19.42:129][427]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VR_Prototype.VR_Prototype to /Game/UEDPIE_0_VR_Prototype.VR_Prototype (0.024955s)
+[2023.12.10-18.19.42:145][427]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2023.12.10-18.19.42:146][427]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.10-18.19.42:147][427]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.10-18.19.42:147][427]LogAIModule: Creating AISystem for world VR_Prototype
+[2023.12.10-18.19.42:148][427]LogPlayLevel: PIE: World Init took: (0.001274s)
+[2023.12.10-18.19.42:148][427]LogAudio: Display: Creating Audio Device:                 Id: 52, Scope: Unique, Realtime: True
+[2023.12.10-18.19.42:148][427]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.10-18.19.42:148][427]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.10-18.19.42:148][427]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.10-18.19.42:148][427]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.10-18.19.42:148][427]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.10-18.19.42:148][427]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.10-18.19.42:148][427]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.10-18.19.42:148][427]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.10-18.19.42:149][427]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.10-18.19.42:149][427]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.10-18.19.42:149][427]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.10-18.19.42:152][427]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.10-18.19.42:307][427]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.12.10-18.19.42:307][427]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.10-18.19.42:307][427]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.10-18.19.42:307][427]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.10-18.19.42:308][427]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=52
+[2023.12.10-18.19.42:308][427]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=52
+[2023.12.10-18.19.42:310][427]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=52
+[2023.12.10-18.19.42:310][427]LogInit: FAudioDevice initialized with ID 52.
+[2023.12.10-18.19.42:310][427]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=52
+[2023.12.10-18.19.42:310][427]LogAudio: Display: Audio Device (ID: 52) registered with world 'VR_Prototype'.
+[2023.12.10-18.19.42:310][427]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 52
+[2023.12.10-18.19.42:340][427]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.10-18.19.42:554][427]LogLoad: Game class is 'VRGameMode_C'
+[2023.12.10-18.19.42:559][427]LogWorld: Bringing World /Game/UEDPIE_0_VR_Prototype.VR_Prototype up for play (max tick rate 0) at 2023.12.10-13.19.42
+[2023.12.10-18.19.42:560][427]LogWorld: Bringing up level for play took: 0.004545
+[2023.12.10-18.19.42:562][427]LogOnline: OSS: Created online subsystem instance for: :Context_74
+[2023.12.10-18.19.42:573][427]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.12.10-18.19.42:577][427]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.12.10-18.19.42:578][427]vr.PixelDensity = "1"
+[2023.12.10-18.19.42:586][427]PIE: Server logged in
+[2023.12.10-18.19.42:591][427]PIE: Play in editor total start time 0.487 seconds.
+[2023.12.10-18.19.42:617][427]LogViewport: Scene viewport resized to 3648x1840, mode Windowed.
+[2023.12.10-18.19.42:621][427]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.12.10-18.20.23:268][665]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.10-18.20.23:269][665]LogWorld: BeginTearingDown for /Game/UEDPIE_0_VR_Prototype
+[2023.12.10-18.20.23:325][665]LogSlate: Window 'PGfD_Prototype Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6) OpenXR Oculus (1.91.0)' being destroyed
+[2023.12.10-18.20.23:331][665]LogWorld: UWorld::CleanupWorld for VR_Prototype, bSessionEnded=true, bCleanupResources=true
+[2023.12.10-18.20.23:331][665]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.10-18.20.23:337][665]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.10-18.20.23:344][665]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.10-18.20.23:372][665]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 52
+[2023.12.10-18.20.23:372][665]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=52
+[2023.12.10-18.20.23:377][665]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=52
+[2023.12.10-18.20.23:391][665]LogSlate: Slate User Unregistered.  User Index 8
+[2023.12.10-18.20.23:391][665]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.12.10-18.20.23:395][665]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2023.12.10-18.20.23:514][666]LogPlayLevel: Display: Destroying online subsystem :Context_74
+[2023.12.10-18.20.28:149][943]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.10-18.20.28:260][943]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2023.12.10-18.20.28:287][943]LogSavePackage: Moving output files for package: /Game/VR_Prototype
+[2023.12.10-18.20.28:288][943]LogSavePackage: Moving '../../../../../../Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Saved/VR_PrototypeE8145680433C9C074DDB61995413BB8A.tmp' to '../../../../../../Users/Anton/Desktop/pfgdWorkspace/PgFD-VR-Prototype/PGfD_Prototype/Content/VR_Prototype.umap'
+[2023.12.10-18.20.28:294][943]LogFileHelpers: All files are already saved.
+[2023.12.10-18.20.28:294][943]LogFileHelpers: Saving map 'VR_Prototype' took 0.073
+[2023.12.10-18.20.28:306][943]LogFileHelpers: InternalPromptForCheckoutAndSave took 156 ms (total: 7.62 sec)
+[2023.12.10-18.20.28:308][943]AssetCheck: New page: Asset Save: VR_Prototype
+[2023.12.10-18.20.28:308][943]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Prototype.VR_Prototype
